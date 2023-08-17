@@ -1,0 +1,38 @@
+.portfolioContainer{
+    min-height: 100vh;
+    
+}
+.topWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.portfolioTop ul{
+    display: flex;
+    list-style: none;
+}
+.portfolioTop ul li{
+    margin-left: 50px;
+}
+.flexWrapper{
+    margin: 0 0 0 -50px;
+    height: 100%;
+    width: 1050px;
+}
+.flexWrapper ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.flexWrapper ul li{
+    margin: 0 0 50px;
+    width: calc(50% - 50px);
+    padding-left: 50px;
+}
+
+.flexWrapper ul li img{
+    height: 415px;
+    width: 100%;
+    object-fit: cover;
+}
