@@ -1,10 +1,12 @@
 
 #root{
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(17, 17, 17);
   color: white;
   min-height: 100vh;
 }
 main {
-  padding-left: 270px;
-  width: calc(100vw - 270px);
+  padding-left: 450px;
+}
+.container{
+  padding: 0 40px;
 }

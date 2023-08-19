@@ -6,10 +6,12 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: end;
 }
 .portfolioTop ul{
     display: flex;
     list-style: none;
+    margin-bottom: 68px;
 }
 .portfolioTop ul li{
     margin-left: 50px;

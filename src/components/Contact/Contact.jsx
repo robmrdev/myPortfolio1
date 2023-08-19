@@ -3,7 +3,10 @@ import './Contact.css'
 const Contact = () => {
   return (
     <section className='aboutWidth'>
-      <h1>Get in Touch</h1>
+      <div className='markTittleContainer'>
+          <div className='markTittle'> CONTACT </div>
+          <h1> Get in Touch </h1>
+      </div>
       <img src="https://dummyimage.com/990x400/000/fff&text=Map" alt="" />
       <form className='contactForm'>
         <input type="text" name="name" placeholder="Name" required/>

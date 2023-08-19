@@ -4,7 +4,10 @@ const WhatIDo = () => {
   return (
     <>
       <section className="aboutWidth">
-        <h1>What I Do</h1>
+      <div className='markTittleContainer'>
+          <div className='markTittle'> SERVICES </div>
+          <h1> What I Do </h1>
+        </div>
         <ul className="servicesUl">
           <li>
             <div>

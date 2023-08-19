@@ -1,26 +1,78 @@
 
 .personalInfo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 100px 40px 152px;
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.markTittle{
+    background-color: rgb(54, 56, 58);
+    padding: 4px 10px;
+    font-size: 12px;
+    color: rgb(187, 187, 187);
+    font-weight: 600;
+    margin-bottom: 15px;
+    width: fit-content;
+}
+.markTittleContainer h1{
+    margin-bottom: 62px;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+.markTittleContainer img{
+    margin-bottom: 35px;
+    width: 100%;
+    height: auto;
 }
 .aboutWidth{
-    max-width: 1000px;
+    max-width: 990px;
     margin: 0 auto;
 }
+.personalInfo .aboutWidth h2{
+    color: white;
+    margin-bottom: 5px;
+}
+.personalInfo .aboutWidth h4{
+    color: rgb(187, 187, 187);
+}
+.personalInfo .aboutWidth p{
+    color: rgb(187, 187, 187);
+    padding-bottom: 20px;
+}
 .bottomLine{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.1);
+    padding-bottom: 20px;
+    margin-bottom: 27px;
 }
 .aboutFlex{
     display: flex;
-    width: 1000px;
+    width: 100%;
 }
 .aboutFlex ul{
     list-style-type: none;
 }
+.aboutFlex ul li{
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+}
+.aboutFlex ul li span{
+    color: rgb(187, 187, 187);
+}
+.progressWrapper>div{
+    margin-top: 40px;
+    padding-top: 33px;
+}
+.progressWrapper h3{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
 .left{
     width: 50%;
     padding-right: 50px;
+    padding-left: 0
 }
 .right{
     width: 50%;
@@ -32,32 +84,88 @@
     margin-right: 10px;
 }
 .aboutButton{
-    width: 1000px;
+    width: 100%;
+    height: 52px;
+    clear: both;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;  
 }
-
+.aboutButton a {
+    padding: 11px 40px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 30px;
+}
 
 .alterBG{
     background-color: black;
+    width: 100%;
 }
 
 .skillName{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 7px;
+    font-size: 19.5px;
+    letter-spacing: 0.5px;
 }
 
 .progress{
     width: 100%;
     height: 3px;
-    background-color: black;
+    background-color: rgb(59, 59, 59);
+    margin-bottom: 17px;
 }
 .progress div{
-    background-color: lightslategray;
+    background-color: rgb(99, 99, 99);
     height: 100%;
 }
 
+.knowledge h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+.knowledge ul{
+    padding-left: 0;
+}
+.knowledge ul li{
+    display: flex;
+    margin-bottom: 7px;
+}
+.knowledgeP{
+    color: rgb(187, 187, 187);
+}
+.knowledge ul li i{
+    font-size: 10px;
+    margin-top: 7px;
+    margin-right: 20px;
+}
+.educationTime{
+    color: rgb(187, 187, 187);
+    background-color: hsla(0,0%,100%,.065);
+    padding: 5px 25px;
+    border-radius: 50px;
+}
+.knowledge ul li div>p{
+    color: rgb(187, 187, 187);
+}
+
+.educationWrapper h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 55px;
+    font-weight: 700;
+}
 .educationLi{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 45px;
 }
 .educationLi div{
     float: right;

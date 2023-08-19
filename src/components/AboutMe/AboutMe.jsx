@@ -2,9 +2,10 @@ import './AboutMe.css'
 
 const AboutMe = () => {
   return (
-    <div className='aboutContainer'>
+    <>
       <section className='personalInfo'>
-        <div>
+        <div className='markTittleContainer'>
+          <div className='markTittle'> ABOUT </div>
           <h1>About Me</h1>
           <img src="https://dummyimage.com/990x570/000/ffffff&text=Photo" alt="" />
         </div>
@@ -67,11 +68,13 @@ const AboutMe = () => {
           </ul>
         </div>
         <div className='aboutButton'>
-          <button>Download CV</button>
+          <a href="#">
+            <span>Download CV</span>
+          </a>
         </div>
       </section>
       <section className='alterBG'>
-        <div className='aboutWidth'>
+        <div className='aboutWidth progressWrapper'>
           <h3>Programming Skills</h3>
           <div className='aboutFlex'>
             <ul className='left'>
@@ -139,41 +142,81 @@ const AboutMe = () => {
         <div className='left'>
           <h3>Knowledge</h3>
           <ul>
-            <li>JavaScript</li>
-            <li>JavaScript</li>
-            <li>JavaScript</li>
-            <li>JavaScript</li>
-            <li>JavaScript</li>
-            <li>JavaScript</li>
+            <li>
+              <i class="fi fi-br-angle-right"></i>
+              <p className='knowledgeP'>JavaScript</p>
+            </li>
+            <li>
+              <i class="fi fi-br-angle-right"></i>
+              <p className='knowledgeP'>JavaScript</p>
+            </li>
+            <li>
+              <i class="fi fi-br-angle-right"></i>
+              <p className='knowledgeP'>JavaScript</p>
+            </li>
+            <li>
+              <i class="fi fi-br-angle-right"></i>
+              <p className='knowledgeP'>JavaScript</p>
+            </li>
+            <li>
+              <i class="fi fi-br-angle-right"></i>
+              <p className='knowledgeP'>JavaScript</p>
+            </li>
+            <li>
+              <i class="fi fi-br-angle-right"></i>
+              <p className='knowledgeP'>JavaScript</p>
+            </li>
           </ul>
         </div>
         <div className='right'>
           <h3>Interests</h3>
           <ul>
-            <li>JavaScript</li>
-            <li>JavaScript</li>
-            <li>JavaScript</li>
-            <li>JavaScript</li>
-            <li>JavaScript</li>
-            <li>JavaScript</li>
+            <li>
+              <i class="fi fi-br-angle-right"></i>
+              <p className='knowledgeP'>JavaScript</p>
+            </li>
+            <li>
+              <i class="fi fi-br-angle-right"></i>
+              <p className='knowledgeP'>JavaScript</p>
+            </li>
+            <li>
+              <i class="fi fi-br-angle-right"></i>
+              <p className='knowledgeP'>JavaScript</p>
+            </li>
+            <li>
+              <i class="fi fi-br-angle-right"></i>
+              <p className='knowledgeP'>JavaScript</p>
+            </li>
+            <li>
+              <i class="fi fi-br-angle-right"></i>
+              <p className='knowledgeP'>JavaScript</p>
+            </li>
+            <li>
+              <i class="fi fi-br-angle-right"></i>
+              <p className='knowledgeP'>JavaScript</p>
+            </li>
           </ul>
         </div>
       </section>
-      <section className='alterBG'>
+      <section className='alterBG educationWrapper'>
         <div className='aboutWidth'>
           <h3>Education</h3>
           <div className='knowledge aboutFlex'>
             <div className='left'>
               <ul>
                 <li className='educationLi'>
-                  <p>Feb-2013</p>
+                  <div>
+                    <p className='educationTime'>Feb-2013</p>
+                  </div>
                   <div>
                     <h4>Web Development</h4>
                     <p>Certificate</p>
                   </div>
                 </li>
                 <li className='educationLi'>
-                  <p>Feb-2013</p>
+                  <div>
+                    <p className='educationTime'>Feb-2013</p>
+                  </div>
                   <div>
                     <h4>Web Development</h4>
                     <p>Certificate</p>
@@ -184,14 +227,18 @@ const AboutMe = () => {
             <div className='right'>
               <ul>
                 <li className='educationLi'>
-                  <p>Feb-2013</p>
+                  <div>
+                    <p className='educationTime'>Feb-2013</p>
+                  </div>
                   <div>
                     <h4>Web Development</h4>
                     <p>Certificate</p>
                   </div>
                 </li>
                 <li className='educationLi'>
-                  <p>Feb-2013</p>
+                  <div>
+                    <p className='educationTime'>Feb-2013</p>
+                  </div>
                   <div>
                     <h4>Web Development</h4>
                     <p>Certificate</p>
@@ -202,7 +249,7 @@ const AboutMe = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   )
 }
 
