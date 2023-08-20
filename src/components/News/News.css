@@ -1,8 +1,25 @@
-.newsLi{
+.newsLi>div{
     display: flex;
     flex-direction: column;
+    box-shadow: 0 0 20px #2b2b2b8f;
 }
 .newsDescription{
     padding: 25px 40px 20px;
     background-color: rgb(46, 46, 46);
+}
+.newsDescription p{
+    color: rgb(187, 187, 187);
+    margin-bottom: 20px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+    line-height: 30px;
+    font-size: 15px;
+    letter-spacing: .5px;
+    font-style: italic;
+}
+.newsDescription h4{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4;
 }

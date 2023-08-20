@@ -11,50 +11,50 @@ const WhatIDo = () => {
         <ul className="servicesUl">
           <li>
             <div>
-              <strong>01</strong>
+              <span className="number">01</span>
               <h3>Web Design</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo eos assumenda exercitationem fugit, incidunt sequi nobis unde distinctio recusandae veniam.</p>
-              <span>Read More</span>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo eos assumenda.</p>
+              <span className="readMore">READ MORE</span>
             </div>
           </li>
           <li>
             <div>
-              <strong>01</strong>
+              <span className="number">02</span>
               <h3>Web Design</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo eos assumenda exercitationem fugit, incidunt sequi nobis unde distinctio recusandae veniam.</p>
-              <span>Read More</span>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo eos assumenda.</p>
+              <span className="readMore">READ MORE</span>
             </div>
           </li>
           <li>
             <div>
-              <strong>01</strong>
+              <span className="number">03</span>
               <h3>Web Design</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo eos assumenda exercitationem fugit, incidunt sequi nobis unde distinctio recusandae veniam.</p>
-              <span>Read More</span>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo eos assumenda.</p>
+              <span className="readMore">READ MORE</span>
             </div>
           </li>
           <li>
             <div>
-              <strong>01</strong>
+              <span className="number">04</span>
               <h3>Web Design</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo eos assumenda exercitationem fugit, incidunt sequi nobis unde distinctio recusandae veniam.</p>
-              <span>Read More</span>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo eos assumenda.</p>
+              <span className="readMore">READ MORE</span>
             </div>
           </li>
           <li>
             <div>
-              <strong>01</strong>
+              <span className="number">05</span>
               <h3>Web Design</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo eos assumenda exercitationem fugit, incidunt sequi nobis unde distinctio recusandae veniam.</p>
-              <span>Read More</span>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo eos assumenda.</p>
+              <span className="readMore">READ MORE</span>
             </div>
           </li>
           <li>
             <div>
-              <strong>01</strong>
+              <span className="number">06</span>
               <h3>Web Design</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo eos assumenda exercitationem fugit, incidunt sequi nobis unde distinctio recusandae veniam.</p>
-              <span>Read More</span>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo eos assumenda.</p>
+              <span className="readMore">READ MORE</span>
             </div>
           </li>
         </ul>

@@ -12,6 +12,7 @@
     display: flex;
     list-style: none;
     margin-bottom: 68px;
+    color: rgb(187, 187, 187);
 }
 .portfolioTop ul li{
     margin-left: 50px;
