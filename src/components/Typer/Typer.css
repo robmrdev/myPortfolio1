@@ -1,0 +1,19 @@
+.cursorVisible {
+    padding-left: 2px;
+  }
+.cursorNotVisible{
+    padding-left: 3px;
+    animation: cursorFadeOut 0.7s forwards;
+}
+  
+  @keyframes cursorFadeOut {
+    0% {
+        opacity: 1; 
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }

@@ -41,6 +41,7 @@
 .personalInfo .aboutWidth p{
     color: rgb(187, 187, 187);
     padding-bottom: 20px;
+    letter-spacing: 0.5px;
 }
 .bottomLine{
     border-bottom: 1px solid rgba(187, 187, 187, 0.1);
@@ -146,11 +147,22 @@
     margin-top: 7px;
     margin-right: 20px;
 }
+.educationTimeContainer{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.educationInfo{
+    padding-left: 20px;
+}
 .educationTime{
     color: rgb(187, 187, 187);
     background-color: hsla(0,0%,100%,.065);
-    padding: 5px 25px;
+    padding: 9px 25px;
     border-radius: 50px;
+    width: fit-content;
+    font-size: 14.5px;
 }
 .knowledge ul li div>p{
     color: rgb(187, 187, 187);
@@ -169,6 +181,7 @@
 }
 .educationLi div{
     float: right;
+    width: 50%;
 }
 
 

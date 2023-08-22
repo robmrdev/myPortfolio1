@@ -9,11 +9,20 @@
     margin: 0 0 40px;
     padding-left: 40px;
 }
-.servicesUl li div {
+.servicesUl li>div {
     height: calc(100% - 85px);
     padding: 45px 30px 40px;
     background-color: rgb(46, 46, 46);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* position: relative; */
 }
+/* .servicesUl li div .readMore{
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+} */
 .number{
     display: inline-block;
     background-color: hsla(0,0%,100%,.03);
