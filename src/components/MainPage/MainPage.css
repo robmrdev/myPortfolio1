@@ -5,6 +5,7 @@
     height: 100%;
     min-height: 100vh;
 }
+<<<<<<< HEAD
 
 .mainleft div {
     width: 300px;
@@ -13,6 +14,15 @@
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     animation: imgMoving 8s ease-in-out 1s infinite;
     box-shadow: inset 0 0 0 9px hsla(0, 0%, 100%, .3);
+=======
+.mainleft div{
+    width: 300px;
+    height: 300px;
+    background-image:  url(https://dummyimage.com/300x300/000/ffffff&text=Photo);
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    animation: imgMoving 8s ease-in-out 1s infinite;
+    box-shadow: inset 0 0 0 9px hsla(0,0%,100%,.3);
+>>>>>>> 0953e4e50b0f725829a71e05cacae323b9f05bd0
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -21,6 +31,7 @@
 
 @keyframes imgMoving {
     0% {
+<<<<<<< HEAD
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
 
@@ -34,6 +45,18 @@
 }
 
 .mainRight {
+=======
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; 
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+  }
+.mainRight{
+>>>>>>> 0953e4e50b0f725829a71e05cacae323b9f05bd0
     margin-left: 80px;
 }
 
@@ -43,8 +66,12 @@
     margin-bottom: 15px;
     color: white;
 }
+<<<<<<< HEAD
 
 .mainRight div h3 {
+=======
+.mainRight div h3{
+>>>>>>> 0953e4e50b0f725829a71e05cacae323b9f05bd0
     font-size: 24px;
     margin-bottom: 15px;
     color: white;
@@ -62,6 +89,7 @@
 .mainRight div i {
     font-size: 22px;
 }
+<<<<<<< HEAD
 
 .mainRight div {
     display: flex;
@@ -95,4 +123,8 @@
     .mainRight h1 {
         font-size: 35px;
     }
+=======
+.mainRight div{
+    display: flex;
+>>>>>>> 0953e4e50b0f725829a71e05cacae323b9f05bd0
 }

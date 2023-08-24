@@ -13,6 +13,7 @@ main {
 a{
   text-decoration: none;
   color: rgb(187, 187, 187);
+<<<<<<< HEAD
 }
 .slideIn{
   transform: translateX(-50px);
@@ -43,3 +44,6 @@ a{
     padding-left: 0;
   }
 }
+=======
+}
+>>>>>>> 0953e4e50b0f725829a71e05cacae323b9f05bd0
