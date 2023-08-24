@@ -12,7 +12,6 @@ const AboutMe = () => {
         <div className='aboutWidth'>
           <h2>Robert Mendoza</h2>
           <h4 className='bottomLine'>Web Developer</h4>
-<<<<<<< HEAD
           <p>Hello! My name is Robert Mendoza, and I'm a passionate programmer and developer. My journey began out of curiosity and
             quickly evolved into a profound passion. From day one, I've been enthusiastic about with every aspect of coding.</p>
           <p className='bottomLine'>
@@ -21,16 +20,6 @@ const AboutMe = () => {
             feel. My next step is integrating these ideas seamlessly into the client's project, ensuring minimal to no maintenance while
             ensuring they run smoothly for an extended period.
           </p>
-=======
-          <p>Hello! My name is Robert Mendoza, and I'm a passionate programmer and developer. My journey began out of curiosity and 
-            quickly evolved into a profound passion. From day one, I've been enthusiastic about with every aspect of coding.</p>
-          <p className='bottomLine'>
-          At present, my specialization is centered on in taking ideas from inception and crafting fully functional websites. I don't 
-          just focus on responsive and attractive design; I go beyond that to create a unique, outstanding, and contemporary look and 
-          feel. My next step is integrating these ideas seamlessly into the client's project, ensuring minimal to no maintenance while 
-          ensuring they run smoothly for an extended period.
-            </p>
->>>>>>> 0953e4e50b0f725829a71e05cacae323b9f05bd0
         </div>
         <div className='aboutFlex bottomLine'>
           <ul className='left'>
@@ -235,11 +224,7 @@ const AboutMe = () => {
                     <p className='educationTime'>Aug-2023 / Ongoing</p>
                   </div>
                   <div className='educationInfo'>
-<<<<<<< HEAD
                     <h4>Backend Development</h4>
-=======
-                    <h4>Web Development</h4>
->>>>>>> 0953e4e50b0f725829a71e05cacae323b9f05bd0
                     <p>Certificate</p>
                   </div>
                 </li>
