@@ -2,7 +2,7 @@ import './Portfolio.css'
 
 const Portfolio = () => {
   return (
-    <section className='aboutWidth portfolioContainer'>
+    <span className='aboutWidth portfolioContainer slideIn'>
       <div className='topWrapper'>
         <div className='markTittleContainer'>
           <div className='markTittle'> PORTFOLIO </div>
@@ -20,7 +20,7 @@ const Portfolio = () => {
       <div className='flexWrapper'>
         <ul>
           <li>
-            <img src="https://dummyimage.com/500x500/000/fff" alt="" />
+              <img src="https://dummyimage.com/500x500/000/fff" alt="" />
           </li>
           <li>
             <img src="https://dummyimage.com/500x500/000/fff" alt="" />
@@ -40,7 +40,7 @@ const Portfolio = () => {
         </ul>
 
       </div>
-    </section>
+    </span>
   )
 }
 

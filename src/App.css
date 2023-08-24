@@ -10,3 +10,36 @@ main {
 .container{
   padding: 0 40px;
 }
+a{
+  text-decoration: none;
+  color: rgb(187, 187, 187);
+}
+.slideIn{
+  transform: translateX(-50px);
+  opacity: 0;
+  animation: slideIn 1.2s forwards;
+}
+
+@keyframes slideIn {
+  0%{
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+}
+
+@media screen and (max-width: 1600px) {
+  main{
+    padding-left: 255px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main{
+    padding-left: 0;
+  }
+}

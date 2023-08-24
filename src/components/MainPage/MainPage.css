@@ -1,24 +1,56 @@
-.mainPageContainer{
+.mainPageContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
     min-height: 100vh;
 }
-.mainRight{
+
+.mainleft div {
+    width: 300px;
+    height: 300px;
+    background-image: url(https://dummyimage.com/300x300/000/ffffff&text=Photo);
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    animation: imgMoving 8s ease-in-out 1s infinite;
+    box-shadow: inset 0 0 0 9px hsla(0, 0%, 100%, .3);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+@keyframes imgMoving {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+.mainRight {
     margin-left: 80px;
 }
-.mainRight h1{
+
+.mainRight h1 {
     font-size: 48px;
     font-weight: 800;
     margin-bottom: 15px;
     color: white;
 }
-.mainRight h3{
+
+.mainRight div h3 {
     font-size: 24px;
     margin-bottom: 15px;
     color: white;
+    font-weight: 500;
 }
+
 .mainRight p {
     margin-bottom: 20px;
     font-weight: 500;
@@ -26,7 +58,41 @@
     max-width: 520px;
     line-height: 30px;
 }
-.mainRight div i{
-    margin-right: 20px;
+
+.mainRight div i {
     font-size: 22px;
+}
+
+.mainRight div {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 1050px) {
+    .mainPageContainer {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .mainRight{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mainleft div  {
+    width: 250px;
+    height: 250px;
+    }
+
+    .mainRight h1 {
+        font-size: 35px;
+    }
 }

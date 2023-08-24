@@ -20,9 +20,20 @@ nav ul{
     padding: 40px 0 50px;
     letter-spacing: 2px;
     font-size: 15px;
+    width: 100%;
 }
 nav ul li{
+    letter-spacing: 1.5px;
     margin-bottom: 15px;
+    width: fit-content;
+    font-weight: 500;
+    :hover{
+    transition: letter-spacing 0.5s ease;
+        letter-spacing: 2.5px;
+    }
+}
+nav ul li .active{
+    color: white;
 }
 nav ul li a{
     color: rgb(187, 187, 187);
@@ -32,6 +43,7 @@ nav ul li a{
 }
 nav ul li a i{
     display: block;
+    width: 15px;
 }
 nav a{
     text-decoration: none;
@@ -39,4 +51,18 @@ nav a{
 nav h2 {
     color: white;
     font-size: 30px;
+}
+
+
+@media screen and (max-width: 1600px) {
+    nav{
+        padding: 0 40px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    nav{
+        visibility: hidden;
+    }
 }

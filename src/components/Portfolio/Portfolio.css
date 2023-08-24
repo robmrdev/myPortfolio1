@@ -1,12 +1,18 @@
 .portfolioContainer{
     min-height: 100vh;
-    
+    padding: 93px 40px 43px 40px;
+    display: flex;
+    flex-direction: column;
 }
 .topWrapper{
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: end;
+}
+.portfolioTop{
+    display: flex;
+    justify-content: flex-end;
 }
 .portfolioTop ul{
     display: flex;
@@ -15,12 +21,12 @@
     color: rgb(187, 187, 187);
 }
 .portfolioTop ul li{
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .flexWrapper{
     margin: 0 0 0 -50px;
     height: 100%;
-    width: 1050px;
+    position: relative;
 }
 .flexWrapper ul{
     list-style: none;
@@ -35,7 +41,47 @@
 }
 
 .flexWrapper ul li img{
-    height: 415px;
-    width: 100%;
+    min-width: 100px;
+    max-width: 100%;
+    height: auto;
+    overflow: clip;
+    overflow-clip-margin: content-box;
     object-fit: cover;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .topWrapper{
+        flex-direction: column;
+        align-items: start;
+    }
+    .topWrapper div h1{
+        margin-bottom: 25px;
+    }
+    .portfolioTop ul{
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .portfolioTop ul li {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+    .flexWrapper{
+        margin: 0;
+    }
+    .flexWrapper ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        width: 100%;
+    }
+    .flexWrapper ul li{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
 }

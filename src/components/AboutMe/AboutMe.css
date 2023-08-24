@@ -2,7 +2,6 @@
 .personalInfo{
     padding: 100px 40px 152px;
     max-width: 990px;
-    width: 100%;
     margin: 0 auto;
     position: relative;
 }
@@ -17,15 +16,22 @@
     width: fit-content;
 }
 .markTittleContainer h1{
-    margin-bottom: 62px;
+    margin-bottom: 50px;
     color: white;
     font-size: 30px;
     font-weight: 800;
 }
+.markTittleContainer{
+    position: relative;
+    width: 100%;
+}
 .markTittleContainer img{
     margin-bottom: 35px;
-    width: 100%;
+    min-width: 100px;
+    max-width: 100%;
     height: auto;
+    overflow: clip;
+    overflow-clip-margin: content-box;
 }
 .aboutWidth{
     max-width: 990px;
@@ -41,6 +47,7 @@
 .personalInfo .aboutWidth p{
     color: rgb(187, 187, 187);
     padding-bottom: 20px;
+    letter-spacing: 0.5px;
 }
 .bottomLine{
     border-bottom: 1px solid rgba(187, 187, 187, 0.1);
@@ -146,11 +153,22 @@
     margin-top: 7px;
     margin-right: 20px;
 }
+.educationTimeContainer{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.educationInfo{
+    padding-left: 20px;
+}
 .educationTime{
     color: rgb(187, 187, 187);
     background-color: hsla(0,0%,100%,.065);
-    padding: 5px 25px;
+    padding: 9px 25px;
     border-radius: 50px;
+    width: fit-content;
+    font-size: 14.5px;
 }
 .knowledge ul li div>p{
     color: rgb(187, 187, 187);
@@ -169,9 +187,77 @@
 }
 .educationLi div{
     float: right;
+    width: 50%;
 }
 
 
 section{
     padding: 93px 0;
+}
+
+
+
+
+
+@media screen and (max-width: 1050px) {
+    .personalInfo{
+        padding: 100px 20px 152px!important;
+        width: auto;
+    }
+    .alterBG{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: auto;
+    }
+    .knowledge{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutFlex{
+        flex-direction: column;
+    }
+    .left{
+        padding: 0;
+        width: auto;
+    }
+    .right{
+        padding: 0;
+        width: auto;
+    }
+    .progressWrapper div ul{
+        width: 100%;
+    }
+    .knowledge .left{
+        margin-bottom: 50px;
+    }
+    .educationWrapper div div .left{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .educationLi {
+        flex-direction: column;
+        align-items: center;
+    }
+    .educationWrapper>div>div {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .educationLi>div{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+    .educationInfo{
+        flex-direction: column;
+    }
+    .educationTime{
+        width: 100%;
+    }
 }
