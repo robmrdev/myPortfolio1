@@ -1,10 +1,10 @@
 import './TopBar.css'
 
-const TopBar = () => {
+const TopBar = ({ toggleMenu, menuAbierto }) => {
   return (
-    <span className='topBar'>
+    <span className='topBar' >
         <h2>ROBERT M</h2>
-    <i class="fa-solid fa-bars"></i>
+    <i class={menuAbierto ? 'fa-solid fa-x' : 'fa-solid fa-bars'} onClick={toggleMenu}></i>
     </span>
 
   )

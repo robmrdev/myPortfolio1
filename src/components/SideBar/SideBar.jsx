@@ -1,9 +1,9 @@
 import "./SideBar.css"
 import { NavLink, Link } from "react-router-dom"
 
-const SideBar = () => {
+const SideBar = ({isOpen}) => {
   return (
-    <nav>
+    <nav className={isOpen ? 'visible' : ''}>
         <Link to="/">
         <h2>ROBERT M</h2>
         </Link>

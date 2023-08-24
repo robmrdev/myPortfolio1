@@ -10,16 +10,22 @@ import News from './components/News/News'
 import Contact from './components/Contact/Contact'
 import TopBar from './components/TopBar/TopBar'
 import BlackAndWhiteButton from './components/BlackAndWhiteButton/BlackAndWhiteButton'
+import { useState } from 'react'
 
 function App() {
+  
+  const [menuAbierto, setMenuAbierto] = useState(false);
+  const toggleMenu = () => {
+    setMenuAbierto(!menuAbierto);
+  };
 
   return (
     <>
       <BrowserRouter>
-        <SideBar />
+        <SideBar isOpen={menuAbierto} />
         <main>
           <BlackAndWhiteButton />
-          <TopBar />
+          <TopBar  toggleMenu={toggleMenu} menuAbierto={menuAbierto} />
           <Routes>
             <Route path='/' element={<MainPage />} />
             <Route path='/aboutme' element={<AboutMe />} />
