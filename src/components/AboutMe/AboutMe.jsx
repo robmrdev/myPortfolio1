@@ -1,12 +1,12 @@
 import './AboutMe.css'
 
-const AboutMe = () => {
+const AboutMe = ({ language, translations}) => {
   return (
     <div className='slideIn'>
       <section className='personalInfo'>
         <div className='markTittleContainer'>
           <div className='markTittle'> ABOUT </div>
-          <h1>About Me</h1>
+          <h1>{translations[language].key}</h1>
             <img src="https://dummyimage.com/990x570/000/ffffff&text=Photo" alt="" />
         </div>
         <div className='aboutWidth'>
