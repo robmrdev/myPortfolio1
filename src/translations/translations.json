@@ -1,10 +1,151 @@
 {
     "en": {
-        "key": " About Me ",
-        "key2": "value2"
+        "mainP":"Passionate developer based in Buenos Aires, dedicated to daily learning and constantly seeking fresh challenges.",
+        "wordsToType":["Programmer", "Frontend Developer", "React Enthusiastic"],
+
+
+        "aboutTittle":" About ",
+        "aboutH1":"About me",
+        "aboutRole":"Web Developer",
+        "aboutDescription1":"Hello! My name is Robert Mendoza, and I'm a passionate programmer and developer. My journey began out of curiosity and quickly evolved into a profound passion. From day one, I've been enthusiastic about with every aspect of coding.",
+        "aboutDescription2":"At present, my specialization is centered on in taking ideas from inception and crafting fully functional websites. I don't just focus on responsive and attractive design; I go beyond that to create a unique, outstanding, and contemporary look and feel. My next step is integrating these ideas seamlessly into the client's project, ensuring minimal to no maintenance while ensuring they run smoothly for an extended period.",
+        "aboutLiStrong1":"Birthdate",
+        "aboutLiSpan1":"Nov 07 1990",
+        "aboutLiStrong2":"Age",
+        "aboutLiStrong3":"Location",
+        "aboutLiStrong5":"Nationality",
+        "aboutLiSpan5":"Venezuelan",
+        "aboutLiStrong6":"Education",
+        "aboutLiStrong7":"Degree",
+        "aboutLiSpan7":"B.Sc. in Biology (Incomplete)",
+        "aboutLiSpan8":"Avalible",
+        "aboutDownload":"Download CV",
+        "aboutSkills":"Programming Skills",
+        "aboutKnowledge":"Knowledge",
+        "aboutInterest":"Interests",
+        "aboutInterestLi2":"Create Mobile App",
+        "aboutInterestLi3":"Site Optimization",
+        "aboutInterestLi4":"Custom Website",
+        "aboutInterestLi5":"UX/UI Design",
+        "aboutInterestLi6":"Career Development",
+        "aboutEducationTime1":"Dec-2022 / Feb 2023",
+        "aboutEducationTittle1":"Web Development",
+        "aboutEducationCertificate":"Certificate",
+        "aboutEducationTime2":"Feb-2023 / Apr-2023",
+        "aboutEducationTime4":"Aug-2023 / Ongoing",
+        "aboutEducationTittle4":"Backend Development",
+
+
+        "servicesTittle":"Services",
+        "servicesH1":"What I Do",
+        "servicesH31":"Custom Web Design and Development",
+        "servicesP1":"Create tailor-made websites for clients that suit their specific needs and goals.",
+        "servicesReadMore":"READ MORE",
+        "servicesH32":"Website Redesign",
+        "servicesP2":"Enhance and update existing websites to improve their appearance and functionality.",
+        "servicesH33":"E-commerce Development",
+        "servicesP3":"Build online stores with e-commerce functionality, shopping carts, and payment gateways.",
+        "servicesH34":"Maintenance and Support",
+        "servicesP4":"Offer ongoing maintenance, updates, and technical support services for websites.",
+        "servicesH35":"User Experience Consulting",
+        "servicesP5":"Advise on how to improve website usability and overall user experience.",
+        "servicesH36":"Web Application Development",
+        "servicesP6":"Craft bespoke web apps tailored to unique client requirements for seamless digital experiences.",
+        
+
+        "portfolioTittle":"Portfolio",
+        "portfolioH1":"My Portfolio",
+        "portfolioAll":"All",
+        "portfolioOthers":"Others",
+
+
+        "newsTittle":"News",
+        "newsH1":"Latest News",
+        "newsDate1":"April 07 2022",
+        "newsBy":"by",
+
+
+        "contactTittle":"Contact",
+        "contactH1":"Get In Touch",
+        "contactName":"Name",
+        "contactMsj":"Message",
+        "contactSend":"Send Message",
+
+        "sideHome":"Home"
     },
     "es": {
-        "key": " Sobre Mi ",
-        "key2": "valor2"
+        "mainP":"Desarrollador apasionado con sede en Buenos Aires, dedicado al aprendizaje diario y en constante búsqueda de nuevos desafíos.",
+        "wordsToType":["Programador", "Desarrollador Frontend", "Fanático de React"],
+        
+        
+        "aboutTittle":" Perfil ",
+        "aboutH1":"Sobre Mi",
+        "aboutRole":"Desarrollador Web",
+        "aboutDescription1":"¡Hola! Mi nombre es Robert Mendoza, y soy un programador y desarrollador apasionado. Mi viaje comenzó por curiosidad y rápidamente se convirtió en una profunda pasión. Desde el primer día, he estado entusiasmado con cada aspecto de la programación.",
+        "aboutDescription2":"En la actualidad, mi especialización se centra en tomar ideas desde su concepción y crear sitios web completamente funcionales. No solo me enfoco en un diseño receptivo y atractivo; voy más allá para crear una apariencia y sensación únicas, destacadas y contemporáneas. Mi siguiente paso es integrar estas ideas de manera fluida en el proyecto del cliente, garantizando un mantenimiento mínimo o nulo y asegurando que funcionen sin problemas durante un período prolongado.",
+        "aboutLiStrong1":"Nacimiento",
+        "aboutLiSpan1":"07 Nov 1990",
+        "aboutLiStrong2":"Edad",
+        "aboutLiStrong3":"Ubicación",
+        "aboutLiStrong5":"Nacionalidad",
+        "aboutLiSpan5":"Venezolano",
+        "aboutLiStrong6":"Educación",
+        "aboutLiStrong7":"Título",
+        "aboutLiSpan7":"Lc en Cs, Biologia(Incompleto)",
+        "aboutLiSpan8":"Disponible",
+        "aboutDownload":"Descargar CV",
+        "aboutSkills":"Habilidades de Programación",
+        "aboutKnowledge":"Conocimiento",
+        "aboutInterest":"Intereses",
+        "aboutInterestLi2":"Crear app moviles",
+        "aboutInterestLi3":"Optimización de sitios",
+        "aboutInterestLi4":"Sitios Personalizados",
+        "aboutInterestLi5":"Diseño UX/UI",
+        "aboutInterestLi6":"Desarrollo Profesional",
+        "aboutEducationTime1":"Dic-2022 / Feb 2023",
+        "aboutEducationTittle1":"Desarrollo Web",
+        "aboutEducationCertificate":"Certificado",
+        "aboutEducationTime2":"Feb-2023 / Abr-2023",
+        "aboutEducationTime4":"Ago-2023 / En Curso",
+        "aboutEducationTittle4":"Desarrollo Backend",
+
+
+        "servicesTittle":"Servicios",
+        "servicesH1":"Que Puedo Hacer",
+        "servicesH31":"Diseño y Desarrollo Web Personalizado",
+        "servicesP1":"Crear sitios web a medida para clientes que se ajusten a sus necesidades y objetivos específicos.",
+        "servicesReadMore":"LEER MAS",
+        "servicesH32":"Rediseño de Sitios Web",
+        "servicesP2":"Mejorar y actualizar sitios web existentes para mejorar su apariencia y funcionalidad.",
+        "servicesH33":"Desarrollo de E-commerce",
+        "servicesP3":"Crear tiendas en línea con funcionalidad de E-commerce, carritos de compras y pasarelas de pago.",
+        "servicesH34":"Mantenimiento y Soporte",
+        "servicesP4":"Ofrecer servicios continuos de mantenimiento, actualizaciones y soporte técnico para sitios web.",
+        "servicesH35":"Consultoría de Experiencia de Usuario",
+        "servicesP5":"Asesorar sobre cómo mejorar la usabilidad del sitio web y la experiencia general del usuario.",
+        "servicesH36":"Desarrollo de Aplicaciones Web",
+        "servicesP6":"Crear aplicaciones web personalizadas adaptadas a los requisitos del cliente para experiencias digitales continuas.",
+        
+
+        "portfolioTittle":"Portafolio",
+        "portfolioH1":"Mi Portafolio",
+        "portfolioAll":"Todos",
+        "portfolioOthers":"Otros",
+
+
+        "newsTittle":"Noticias",
+        "newsH1":"Ultimas Noticias",
+        "newsDate1":"07 de Abril del 2022",
+        "newsBy":"by",
+
+
+        "contactTittle":"Contacto",
+        "contactH1":"Ponte en Contacto",
+        "contactName":"Nombre",
+        "contactMsj":"Mensaje",
+        "contactSend":"Enviar Mensaje",
+        
+
+        "sideHome":"Inicio"
     }
 }

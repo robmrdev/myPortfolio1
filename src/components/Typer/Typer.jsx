@@ -48,8 +48,8 @@ function TyperInner({ words }) {
   );
 }
 
-function Typer() {
-  const wordsToType = ["Programmer", "Frontend Developer", "React Enthusiastic"];
+function Typer({wordsToType}) {
+
 
   return (
     <div>

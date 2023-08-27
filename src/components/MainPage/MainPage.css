@@ -7,9 +7,10 @@
 }
 
 .mainleft div {
+    filter: grayscale(30%);
     width: 300px;
     height: 300px;
-    background-image: url(https://dummyimage.com/300x300/000/ffffff&text=Photo);
+    background-image: url(../../img/profile.jpeg);
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     animation: imgMoving 8s ease-in-out 1s infinite;
     box-shadow: inset 0 0 0 9px hsla(0, 0%, 100%, .3);

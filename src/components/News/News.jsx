@@ -1,11 +1,11 @@
 import './News.css'
 
-const News = () => {
+const News = ({ language, translations}) => {
   return (
     <section className='aboutWidth portfolioContainer slideIn'>
       <div className='markTittleContainer'>
-        <div className='markTittle'> NEWS </div>
-        <h1> Latest News </h1>
+        <div className='markTittle'> {translations[language].newsTittle} </div>
+        <h1> {translations[language].newsH1} </h1>
       </div>
       <div className='flexWrapper'>
         <ul>
@@ -13,9 +13,9 @@ const News = () => {
             <div>
               <img src="https://dummyimage.com/500x500/000/fff" alt="" />
               <div className='newsDescription'>
-                <p>by ROBERT MENDOZA / 07 April 2022</p>
+                <p>{translations[language].newsBy} ROBERT MENDOZA / {translations[language].newsDate1}</p>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-                <span className='readMore'>READ MORE</span>
+                <span className='readMore'>{translations[language].servicesReadMore}</span>
               </div>
             </div>
           </li>
@@ -23,9 +23,9 @@ const News = () => {
             <div>
               <img src="https://dummyimage.com/500x500/000/fff" alt="" />
               <div className='newsDescription'>
-                <p>by ROBERT MENDOZA / 07 April 2022</p>
+                <p>{translations[language].newsBy} ROBERT MENDOZA / {translations[language].newsDate1}</p>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-                <span className='readMore'>READ MORE</span>
+                <span className='readMore'>{translations[language].servicesReadMore}</span>
               </div>
             </div>
           </li>
@@ -33,9 +33,9 @@ const News = () => {
             <div>
               <img src="https://dummyimage.com/500x500/000/fff" alt="" />
               <div className='newsDescription'>
-                <p>by ROBERT MENDOZA / 07 April 2022</p>
+                <p>{translations[language].newsBy} ROBERT MENDOZA / {translations[language].newsDate1}</p>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-                <span className='readMore'>READ MORE</span>
+                <span className='readMore'>{translations[language].servicesReadMore}</span>
               </div>
             </div>
           </li>
@@ -43,9 +43,9 @@ const News = () => {
             <div>
               <img src="https://dummyimage.com/500x500/000/fff" alt="" />
               <div className='newsDescription'>
-                <p>by ROBERT MENDOZA / 07 April 2022</p>
+                <p>{translations[language].newsBy} ROBERT MENDOZA / {translations[language].newsDate1}</p>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-                <span className='readMore'>READ MORE</span>
+                <span className='readMore'>{translations[language].servicesReadMore}</span>
               </div>
             </div>
           </li>
@@ -53,9 +53,9 @@ const News = () => {
             <div>
               <img src="https://dummyimage.com/500x500/000/fff" alt="" />
               <div className='newsDescription'>
-                <p>by ROBERT MENDOZA / 07 April 2022</p>
+                <p>{translations[language].newsBy} ROBERT MENDOZA / {translations[language].newsDate1}</p>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-                <span className='readMore'>READ MORE</span>
+                <span className='readMore'>{translations[language].servicesReadMore}</span>
               </div>
             </div>
           </li>
@@ -63,9 +63,9 @@ const News = () => {
             <div>
               <img src="https://dummyimage.com/500x500/000/fff" alt="" />
               <div className='newsDescription'>
-                <p>by ROBERT MENDOZA / 07 April 2022</p>
+                <p>{translations[language].newsBy} ROBERT MENDOZA / {translations[language].newsDate1}</p>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-                <span className='readMore'>READ MORE</span>
+                <span className='readMore'>{translations[language].servicesReadMore}</span>
               </div>
             </div>
           </li>

@@ -1,19 +1,19 @@
 import './Portfolio.css'
 
-const Portfolio = () => {
+const Portfolio = ({ language, translations}) => {
   return (
     <span className='aboutWidth portfolioContainer slideIn'>
       <div className='topWrapper'>
         <div className='markTittleContainer'>
-          <div className='markTittle'> PORTFOLIO </div>
-          <h1> My Portfolio </h1>
+          <div className='markTittle'> {translations[language].portfolioTittle} </div>
+          <h1> {translations[language].portfolioH1} </h1>
         </div>
         <div className='portfolioTop'>
           <ul>
-            <li> All </li>
+            <li> {translations[language].portfolioAll} </li>
             <li> JavaScript </li>
             <li> React </li>
-            <li> Others </li>
+            <li> {translations[language].portfolioOthers} </li>
           </ul>
         </div>
       </div>

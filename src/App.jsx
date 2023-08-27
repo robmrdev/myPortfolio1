@@ -17,13 +17,12 @@ import LanguageButton from './components/LanguageButton/LanguageButton'
 
 function App() {
 
-  const [language, setLanguage] = useState('es');
+  const [language, setLanguage] = useState('en');
 
   const handleChangeLanguage = (newLanguage) => {
     setLanguage(newLanguage);
   };
 
-  const selectedTranslations = translations[language];
   
   const [menuAbierto, setMenuAbierto] = useState(false);
   const toggleMenu = () => {
@@ -33,7 +32,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <SideBar isOpen={menuAbierto} />
+        <SideBar isOpen={menuAbierto} language={language} translations={translations}/> 
         <main>
         <LanguageButton currentLanguage={language} onChangeLanguage={handleChangeLanguage} />
           <BlackAndWhiteButton />
@@ -41,10 +40,10 @@ function App() {
           <Routes>
             <Route path='/' element={<MainPage language={language} translations={translations}/>} />
             <Route path='/aboutme' element={<AboutMe language={language} translations={translations} />} />
-            <Route path='/whatido' element={<WhatIDo />} />
-            <Route path='/portfolio' element={<Portfolio />} />
-            <Route path='/news' element={<News />} />
-            <Route path='/contact' element={<Contact />} />
+            <Route path='/whatido' element={<WhatIDo language={language} translations={translations} />} />
+            <Route path='/portfolio' element={<Portfolio language={language} translations={translations} />} />
+            <Route path='/news' element={<News language={language} translations={translations} />} />
+            <Route path='/contact' element={<Contact language={language} translations={translations} />} />
           </Routes>
         </main>
       </BrowserRouter>

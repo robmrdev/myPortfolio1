@@ -1,39 +1,36 @@
 import './AboutMe.css'
+import profile from '../../img/profile.jpeg'
 
-const AboutMe = ({ language, translations}) => {
+const AboutMe = ({ language, translations }) => {
   return (
     <div className='slideIn'>
       <section className='personalInfo'>
         <div className='markTittleContainer'>
-          <div className='markTittle'> ABOUT </div>
-          <h1>{translations[language].key}</h1>
-            <img src="https://dummyimage.com/990x570/000/ffffff&text=Photo" alt="" />
+          <div className='markTittle'>{translations[language].aboutTittle}</div>
+          <h1>{translations[language].aboutH1}</h1>
+          <div className='profilePic'>
+            <img src={profile} alt="Profile Pic" />
+          </div>
         </div>
         <div className='aboutWidth'>
           <h2>Robert Mendoza</h2>
-          <h4 className='bottomLine'>Web Developer</h4>
-          <p>Hello! My name is Robert Mendoza, and I'm a passionate programmer and developer. My journey began out of curiosity and
-            quickly evolved into a profound passion. From day one, I've been enthusiastic about with every aspect of coding.</p>
-          <p className='bottomLine'>
-            At present, my specialization is centered on in taking ideas from inception and crafting fully functional websites. I don't
-            just focus on responsive and attractive design; I go beyond that to create a unique, outstanding, and contemporary look and
-            feel. My next step is integrating these ideas seamlessly into the client's project, ensuring minimal to no maintenance while
-            ensuring they run smoothly for an extended period.
-          </p>
+          <h4 className='bottomLine'>{translations[language].aboutRole}</h4>
+          <p>{translations[language].aboutDescription1}</p>
+          <p className='bottomLine'>{translations[language].aboutDescription1}</p>
         </div>
         <div className='aboutFlex bottomLine'>
           <ul className='left'>
             <li>
-              <strong>Birthdate: </strong>
-              <span> Nov 07 1990</span>
+              <strong>{translations[language].aboutLiStrong1}: </strong>
+              <span> {translations[language].aboutLiSpan1}</span>
             </li>
             <li>
-              <strong>Age: </strong>
+              <strong>{translations[language].aboutLiStrong2}: </strong>
               <span> {new Date().getFullYear() - new Date('1990-11-07').getFullYear() - (new Date().getMonth() < 10
                 || (new Date().getMonth() === 10 && new Date().getDate() < 7) ? 1 : 0)}</span>
             </li>
             <li>
-              <strong>Location: </strong>
+              <strong>{translations[language].aboutLiStrong3}: </strong>
               <span> Buenos Aires, Argentina</span>
             </li>
             <li>
@@ -43,32 +40,32 @@ const AboutMe = ({ language, translations}) => {
           </ul>
           <ul className='right'>
             <li>
-              <strong>Nationality: </strong>
-              <span> Venezuelan</span>
+              <strong>{translations[language].aboutLiStrong5}: </strong>
+              <span> {translations[language].aboutLiSpan5}</span>
             </li>
             <li>
-              <strong>Study: </strong>
+              <strong>{translations[language].aboutLiStrong6}: </strong>
               <span> Universidad de Los Andes</span>
             </li>
             <li>
-              <strong>Degree: </strong>
-              <span> Unfinished</span>
+              <strong>{translations[language].aboutLiStrong7}: </strong>
+              <span> {translations[language].aboutLiSpan7}</span>
             </li>
             <li>
               <strong>Freelance: </strong>
-              <span> Avalible</span>
+              <span> {translations[language].aboutLiSpan8}</span>
             </li>
           </ul>
         </div>
         <div className='aboutButton'>
           <a href="#">
-            <span>Download CV</span>
+            <span>{translations[language].aboutDownload}</span>
           </a>
         </div>
       </section>
       <section className='alterBG'>
         <div className='aboutWidth progressWrapper'>
-          <h3>Programming Skills</h3>
+          <h3>{translations[language].aboutSkills}</h3>
           <div className='aboutFlex'>
             <ul className='left'>
               <li>
@@ -124,7 +121,7 @@ const AboutMe = ({ language, translations}) => {
       </section>
       <section className='knowledge aboutFlex aboutWidth'>
         <div className='left'>
-          <h3>Knowledge</h3>
+          <h3>{translations[language].aboutKnowledge}</h3>
           <ul>
             <li>
               <i class="fi fi-br-angle-right"></i>
@@ -153,7 +150,7 @@ const AboutMe = ({ language, translations}) => {
           </ul>
         </div>
         <div className='right'>
-          <h3>Interests</h3>
+          <h3>{translations[language].aboutInterest}</h3>
           <ul>
             <li>
               <i class="fi fi-br-angle-right"></i>
@@ -161,49 +158,49 @@ const AboutMe = ({ language, translations}) => {
             </li>
             <li>
               <i class="fi fi-br-angle-right"></i>
-              <p className='knowledgeP'>Create Mobile App</p>
+              <p className='knowledgeP'>{translations[language].aboutInterestLi2}</p>
             </li>
             <li>
               <i class="fi fi-br-angle-right"></i>
-              <p className='knowledgeP'>Site Optimization</p>
+              <p className='knowledgeP'>{translations[language].aboutInterestLi3}</p>
             </li>
             <li>
               <i class="fi fi-br-angle-right"></i>
-              <p className='knowledgeP'>Custom Website</p>
+              <p className='knowledgeP'>{translations[language].aboutInterestLi4}</p>
             </li>
             <li>
               <i class="fi fi-br-angle-right"></i>
-              <p className='knowledgeP'>UX/UI Design</p>
+              <p className='knowledgeP'>{translations[language].aboutInterestLi5}</p>
             </li>
             <li>
               <i class="fi fi-br-angle-right"></i>
-              <p className='knowledgeP'>JavaScript</p>
+              <p className='knowledgeP'>{translations[language].aboutInterestLi6}</p>
             </li>
           </ul>
         </div>
       </section>
       <section className='alterBG educationWrapper'>
         <div className='aboutWidth'>
-          <h3>Education</h3>
+          <h3>{translations[language].aboutLiStrong6}</h3>
           <div className='knowledge aboutFlex'>
             <div className='left'>
               <ul>
                 <li className='educationLi'>
                   <div className='educationTimeContainer'>
-                    <p className='educationTime'>Dec-2022 / Feb 2023</p>
+                    <p className='educationTime'>{translations[language].aboutEducationTime1}</p>
                   </div>
                   <div className='educationInfo'>
-                    <h4>Web Development</h4>
-                    <p>Certificate</p>
+                    <h4>{translations[language].aboutEducationTittle1}</h4>
+                    <p>{translations[language].aboutEducationCertificate}</p>
                   </div>
                 </li>
                 <li className='educationLi'>
                   <div className='educationTimeContainer'>
-                    <p className='educationTime'>Feb-2023 / Apr-2023</p>
+                    <p className='educationTime'>{translations[language].aboutEducationTime2}</p>
                   </div>
                   <div className='educationInfo'>
                     <h4>Javascript</h4>
-                    <p>Certificate</p>
+                    <p>{translations[language].aboutEducationCertificate}</p>
                   </div>
                 </li>
               </ul>
@@ -216,16 +213,16 @@ const AboutMe = ({ language, translations}) => {
                   </div>
                   <div className='educationInfo'>
                     <h4>React</h4>
-                    <p>Certificate</p>
+                    <p>{translations[language].aboutEducationCertificate}</p>
                   </div>
                 </li>
                 <li className='educationLi'>
                   <div className='educationTimeContainer'>
-                    <p className='educationTime'>Aug-2023 / Ongoing</p>
+                    <p className='educationTime'>{translations[language].aboutEducationTime4}</p>
                   </div>
                   <div className='educationInfo'>
-                    <h4>Backend Development</h4>
-                    <p>Certificate</p>
+                    <h4>{translations[language].aboutEducationTittle4}</h4>
+                    <p>{translations[language].aboutEducationCertificate}</p>
                   </div>
                 </li>
               </ul>
