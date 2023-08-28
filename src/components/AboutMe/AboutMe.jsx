@@ -20,38 +20,38 @@ const AboutMe = ({ language, translations }) => {
         </div>
         <div className='aboutFlex bottomLine'>
           <ul className='left'>
-            <li>
+            <li className='aboutInfoLi'>
               <strong>{translations[language].aboutLiStrong1}: </strong>
               <span> {translations[language].aboutLiSpan1}</span>
             </li>
-            <li>
+            <li className='aboutInfoLi'>
               <strong>{translations[language].aboutLiStrong2}: </strong>
               <span> {new Date().getFullYear() - new Date('1990-11-07').getFullYear() - (new Date().getMonth() < 10
                 || (new Date().getMonth() === 10 && new Date().getDate() < 7) ? 1 : 0)}</span>
             </li>
-            <li>
+            <li className='aboutInfoLi'>
               <strong>{translations[language].aboutLiStrong3}: </strong>
               <span> Buenos Aires, Argentina</span>
             </li>
-            <li>
+            <li className='aboutInfoLi'>
               <strong>Email: </strong>
               <span> <a href="mailto:robmrivas@gmail.com"> robmrivas@gmail.com</a></span>
             </li>
           </ul>
           <ul className='right'>
-            <li>
+            <li className='aboutInfoLi'>
               <strong>{translations[language].aboutLiStrong5}: </strong>
               <span> {translations[language].aboutLiSpan5}</span>
             </li>
-            <li>
+            <li className='aboutInfoLi'>
               <strong>{translations[language].aboutLiStrong6}: </strong>
               <span> Universidad de Los Andes</span>
             </li>
-            <li>
+            <li className='aboutInfoLi'>
               <strong>{translations[language].aboutLiStrong7}: </strong>
               <span> {translations[language].aboutLiSpan7}</span>
             </li>
-            <li>
+            <li className='aboutInfoLi'>
               <strong>Freelance: </strong>
               <span> {translations[language].aboutLiSpan8}</span>
             </li>
