@@ -2,6 +2,7 @@ import "./SideBar.css"
 import { NavLink, Link } from "react-router-dom"
 
 const SideBar = ({isOpen, language, translations}) => {
+  
   return (
     <nav className={isOpen ? 'visible' : ''}>
         <Link to="/">

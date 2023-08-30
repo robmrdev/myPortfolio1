@@ -1,6 +1,12 @@
 import "./WhatIDo.css"
+import { useEffect } from "react";
 
 const WhatIDo = ({ language, translations}) => {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="slideIn">
       <span className="aboutWidth whatIDoContainer">
@@ -18,7 +24,7 @@ const WhatIDo = ({ language, translations}) => {
                 </div>
                 <div className="servicesDesc">
                   <p>{translations[language].servicesP1}</p>
-                  <span className="readMore">{translations[language].servicesReadMore}</span>
+                  <span className="readMore"><p>{translations[language].servicesReadMore}</p><div></div></span>
                 </div>
               </div>
             </li>
@@ -30,7 +36,7 @@ const WhatIDo = ({ language, translations}) => {
                 </div>
                 <div className="servicesDesc">
                   <p>{translations[language].servicesP2}</p>
-                  <span className="readMore">{translations[language].servicesReadMore}</span>
+                  <span className="readMore"><p>{translations[language].servicesReadMore}</p><div></div></span>
                 </div>
               </div>
             </li>
@@ -42,7 +48,7 @@ const WhatIDo = ({ language, translations}) => {
                 </div>
                 <div className="servicesDesc">
                   <p>{translations[language].servicesP3}</p>
-                  <span className="readMore">{translations[language].servicesReadMore}</span>
+                  <span className="readMore"><p>{translations[language].servicesReadMore}</p><div></div></span>
                 </div>
               </div>
             </li>
@@ -54,7 +60,7 @@ const WhatIDo = ({ language, translations}) => {
                 </div>
                 <div className="servicesDesc">
                   <p>{translations[language].servicesP4}</p>
-                  <span className="readMore">{translations[language].servicesReadMore}</span>
+                  <span className="readMore"><p>{translations[language].servicesReadMore}</p><div></div></span>
                 </div>
               </div>
             </li>
@@ -66,7 +72,7 @@ const WhatIDo = ({ language, translations}) => {
                 </div>
                 <div className="servicesDesc">
                   <p>{translations[language].servicesP5}</p>
-                  <span className="readMore">{translations[language].servicesReadMore}</span>
+                  <span className="readMore"><p>{translations[language].servicesReadMore}</p><div></div></span>
                 </div>
               </div>
             </li>
@@ -78,7 +84,7 @@ const WhatIDo = ({ language, translations}) => {
                 </div>
                 <div className="servicesDesc">
                   <p>{translations[language].servicesP6}</p>
-                  <span className="readMore">{translations[language].servicesReadMore}</span>
+                  <span className="readMore"><p>{translations[language].servicesReadMore}</p><div></div></span>
                 </div>
               </div>
             </li>

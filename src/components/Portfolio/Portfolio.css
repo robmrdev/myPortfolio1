@@ -43,13 +43,31 @@
 .flexWrapper ul li img{
     min-width: 100px;
     max-width: 100%;
+    width: 100%;
     height: auto;
-    overflow: clip;
+    overflow: hidden;
     overflow-clip-margin: content-box;
     object-fit: cover;
 }
+.portfolioLi div img{
+    transition: transform 0.7s ease;
+}
+
+.portfolioLi div:hover img{
+    transform: scale(1.15);
+}
+/* .portfolioLi .newsImg{
+    object-fit: cover;
+    height: 450px;
+} */
 
 
+/* 
+@media screen and (max-width: 575px) {
+    .portfolioLi .newsImg{
+        height: auto;
+    }
+} */
 
 @media screen and (max-width: 768px) {
     .topWrapper{

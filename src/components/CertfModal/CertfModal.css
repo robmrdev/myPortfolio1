@@ -1,0 +1,44 @@
+.modalContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.modal {
+    background-color:  hsla(0,0%,100%,.2);
+    padding: 20px;
+    border-radius: 5px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.modal img {
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .modalContainer{
+        right: 0;
+        left: 0;
+        max-height: 100%;
+    }
+    .modal{
+        padding: 0;
+    }
+}

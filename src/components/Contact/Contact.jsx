@@ -1,6 +1,10 @@
 import './Contact.css'
+import { useEffect } from 'react';
 
 const Contact = ({ language, translations}) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className='aboutWidth slideIn contactContainer'>
       <div className='markTittleContainer'>

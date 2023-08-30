@@ -1,6 +1,14 @@
 import './News.css'
+import { useEffect } from 'react';
+import profile from '../../img/profile.jpeg'
 
-const News = ({ language, translations}) => {
+const News = ({ language, translations }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
+  const img1 = { profile }
   return (
     <section className='aboutWidth portfolioContainer slideIn'>
       <div className='markTittleContainer'>
@@ -11,66 +19,89 @@ const News = ({ language, translations}) => {
         <ul>
           <li className='newsLi'>
             <div>
-              <img src="https://dummyimage.com/500x500/000/fff" alt="" />
-              <div className='newsDescription'>
+              <div className='newsImgContainer'>
+                <div className='newsImg'></div>
+              </div>
+              <div className='newsDescription servicesDesc'>
                 <p>{translations[language].newsBy} ROBERT MENDOZA / {translations[language].newsDate1}</p>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-                <span className='readMore'>{translations[language].servicesReadMore}</span>
+                <div>
+                  <span className='readMore'><p>{translations[language].servicesReadMore}</p><div></div></span>
+                </div>
               </div>
             </div>
           </li>
           <li className='newsLi'>
             <div>
-              <img src="https://dummyimage.com/500x500/000/fff" alt="" />
-              <div className='newsDescription'>
+              <div className='newsImgContainer'>
+                <div className='newsImg'></div>
+              </div>
+              <div className='newsDescription servicesDesc'>
                 <p>{translations[language].newsBy} ROBERT MENDOZA / {translations[language].newsDate1}</p>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-                <span className='readMore'>{translations[language].servicesReadMore}</span>
+                <div>
+                  <span className='readMore'><p>{translations[language].servicesReadMore}</p><div></div></span>
+                </div>
               </div>
             </div>
           </li>
           <li className='newsLi'>
             <div>
-              <img src="https://dummyimage.com/500x500/000/fff" alt="" />
-              <div className='newsDescription'>
+              <div className='newsImgContainer'>
+                <div className='newsImg'></div>
+              </div>
+              <div className='newsDescription servicesDesc'>
                 <p>{translations[language].newsBy} ROBERT MENDOZA / {translations[language].newsDate1}</p>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-                <span className='readMore'>{translations[language].servicesReadMore}</span>
+                <div>
+                  <span className='readMore'><p>{translations[language].servicesReadMore}</p><div></div></span>
+                </div>
               </div>
             </div>
           </li>
           <li className='newsLi'>
             <div>
-              <img src="https://dummyimage.com/500x500/000/fff" alt="" />
-              <div className='newsDescription'>
+              <div className='newsImgContainer'>
+                <div className='newsImg'></div>
+              </div>
+              <div className='newsDescription servicesDesc'>
                 <p>{translations[language].newsBy} ROBERT MENDOZA / {translations[language].newsDate1}</p>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-                <span className='readMore'>{translations[language].servicesReadMore}</span>
+                <div>
+                  <span className='readMore'><p>{translations[language].servicesReadMore}</p><div></div></span>
+                </div>
               </div>
             </div>
           </li>
           <li className='newsLi'>
             <div>
-              <img src="https://dummyimage.com/500x500/000/fff" alt="" />
-              <div className='newsDescription'>
+              <div className='newsImgContainer'>
+                <div className='newsImg'></div>
+              </div>
+              <div className='newsDescription servicesDesc'>
                 <p>{translations[language].newsBy} ROBERT MENDOZA / {translations[language].newsDate1}</p>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-                <span className='readMore'>{translations[language].servicesReadMore}</span>
+                <div>
+                  <span className='readMore'><p>{translations[language].servicesReadMore}</p><div></div></span>
+                </div>
               </div>
             </div>
           </li>
           <li className='newsLi'>
             <div>
-              <img src="https://dummyimage.com/500x500/000/fff" alt="" />
-              <div className='newsDescription'>
+              <div className='newsImgContainer'>
+                <div className='newsImg'></div>
+              </div>
+              <div className='newsDescription servicesDesc'>
                 <p>{translations[language].newsBy} ROBERT MENDOZA / {translations[language].newsDate1}</p>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-                <span className='readMore'>{translations[language].servicesReadMore}</span>
+                <div>
+                  <span className='readMore'><p>{translations[language].servicesReadMore}</p><div></div></span>
+                </div>
               </div>
             </div>
           </li>
         </ul>
-
       </div>
     </section>
   )

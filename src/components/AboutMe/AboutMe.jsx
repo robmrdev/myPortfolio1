@@ -1,8 +1,32 @@
 import './AboutMe.css'
 import profile from '../../img/profile.jpeg'
+import CertfModal from '../CertfModal/CertfModal'
+import { useState, useEffect } from 'react'
 
 const AboutMe = ({ language, translations }) => {
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [currentCertf, setCurrentCertf] = useState(1);
+
+  useEffect(() => {
+    setIsModalOpen(false);
+  }, []);
+
+  const openModal = (currentCertf) => {
+    setCurrentCertf(currentCertf);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
+    <>
+    <CertfModal  isOpen={isModalOpen} onClose={closeModal} imageSelector={currentCertf}/>
     <div className='slideIn'>
       <section className='personalInfo'>
         <div className='markTittleContainer'>
@@ -180,6 +204,7 @@ const AboutMe = ({ language, translations }) => {
         </div>
       </section>
       <section className='alterBG educationWrapper'>
+        
         <div className='aboutWidth'>
           <h3>{translations[language].aboutLiStrong6}</h3>
           <div className='knowledge aboutFlex'>
@@ -191,7 +216,7 @@ const AboutMe = ({ language, translations }) => {
                   </div>
                   <div className='educationInfo'>
                     <h4>{translations[language].aboutEducationTittle1}</h4>
-                    <p>{translations[language].aboutEducationCertificate}</p>
+                    <p onClick={() => openModal(1)}>{translations[language].aboutEducationCertificate}</p>
                   </div>
                 </li>
                 <li className='educationLi'>
@@ -200,7 +225,7 @@ const AboutMe = ({ language, translations }) => {
                   </div>
                   <div className='educationInfo'>
                     <h4>Javascript</h4>
-                    <p>{translations[language].aboutEducationCertificate}</p>
+                    <p onClick={() => openModal(2)}>{translations[language].aboutEducationCertificate}</p>
                   </div>
                 </li>
               </ul>
@@ -213,7 +238,7 @@ const AboutMe = ({ language, translations }) => {
                   </div>
                   <div className='educationInfo'>
                     <h4>React</h4>
-                    <p>{translations[language].aboutEducationCertificate}</p>
+                    <p onClick={() => openModal(3)}>{translations[language].aboutEducationCertificate}</p>
                   </div>
                 </li>
                 <li className='educationLi'>
@@ -231,6 +256,7 @@ const AboutMe = ({ language, translations }) => {
         </div>
       </section>
     </div>
+    </>
   )
 }
 

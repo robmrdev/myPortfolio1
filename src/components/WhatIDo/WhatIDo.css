@@ -19,6 +19,7 @@
     max-width: 340px;
     margin: 0 0 40px;
     padding-left: 40px;
+
 }
 .servicesUl li>div {
     height: calc(100% - 85px);
@@ -26,7 +27,12 @@
     background-color: rgb(46, 46, 46);
     display: flex;
     flex-direction: column;
-    /* position: relative; */
+}
+.servicesUl li>div:hover .readMore {
+    left: 0;
+}
+.servicesUl li>div:hover .number{
+    background-color: hsla(0,0%,100%,.1);
 }
 .servicesTittle{
     min-height: 160px;
@@ -36,12 +42,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 39.5px;
 }
-/* .servicesUl li div .readMore{
-    position: absolute;
-    left: 30px;
-    bottom: 25px;
-} */
 .number{
     display: inline-block;
     background-color: hsla(0,0%,100%,.03);
@@ -53,21 +57,36 @@
     border-radius: 100px;
     line-height: 60px;
     font-weight: 700;
+    transition: all 0.8s ease;
 }
 .servicesUl li div h3{
     font-size: 20px;
     margin-bottom: 15px;
 }
-.servicesUl li div p{
+.servicesUl li div>p{
     color: rgb(187, 187, 187);
     line-height: 30px;
 }
 .readMore{
-    display: inline-block;
+    display: flex;
+    align-items: center;
     font-weight: 600;
     font-size: 13px;
     margin: 10px 0;
     letter-spacing: 0.7px;
+    position: absolute;
+    bottom: 0;
+    left: -80px;
+    transition: left 0.5s ease;
+}
+.readMore p{
+    width: 80px;
+    margin-right: 8px;
+}
+.readMore div{
+    width: 30px;
+    height: 1px;
+    background-color: white;
 }
 
 

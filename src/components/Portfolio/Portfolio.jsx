@@ -1,6 +1,10 @@
 import './Portfolio.css'
+import { useEffect } from 'react';
 
-const Portfolio = ({ language, translations}) => {
+const Portfolio = ({ language, translations }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <span className='aboutWidth portfolioContainer slideIn'>
       <div className='topWrapper'>
@@ -19,23 +23,35 @@ const Portfolio = ({ language, translations}) => {
       </div>
       <div className='flexWrapper'>
         <ul>
-          <li>
+          <li className='portfolioLi'>
+            <div className='newsImgContainer'>
               <img src="https://dummyimage.com/500x500/000/fff" alt="" />
+            </div>
           </li>
-          <li>
-            <img src="https://dummyimage.com/500x500/000/fff" alt="" />
+          <li className='portfolioLi'>
+            <div className='newsImgContainer'>
+              <img src="https://dummyimage.com/500x500/000/fff" alt="" />
+            </div>
           </li>
-          <li>
-            <img src="https://dummyimage.com/500x500/000/fff" alt="" />
+          <li className='portfolioLi'>
+            <div className='newsImgContainer'>
+              <img src="https://dummyimage.com/500x500/000/fff" alt="" />
+            </div>
           </li>
-          <li>
-            <img src="https://dummyimage.com/500x500/000/fff" alt="" />
+          <li className='portfolioLi'>
+            <div className='newsImgContainer'>
+              <img src="https://dummyimage.com/500x500/000/fff" alt="" />
+            </div>
           </li>
-          <li>
-            <img src="https://dummyimage.com/500x500/000/fff" alt="" />
+          <li className='portfolioLi'>
+            <div className='newsImgContainer'>
+              <img src="https://dummyimage.com/500x500/000/fff" alt="" />
+            </div>
           </li>
-          <li>
-            <img src="https://dummyimage.com/500x500/000/fff" alt="" />
+          <li className='portfolioLi'>
+            <div className='newsImgContainer'>
+              <img src="https://dummyimage.com/500x500/000/fff" alt="" />
+            </div>
           </li>
         </ul>
 
