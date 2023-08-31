@@ -1,0 +1,22 @@
+.newsQuote{
+    display: flex;
+}
+.newsQuote i{
+    font-size: 55px;
+    margin-right: 40px;
+    margin-top: 25px;
+    color: white;
+}
+
+.bigP{
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .newsQuote{
+        display: inline;
+}
+}

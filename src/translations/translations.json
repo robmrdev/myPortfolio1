@@ -62,6 +62,10 @@
         "newsTittle":"News",
         "newsH1":"Latest News",
         "newsDate1":"April 07 2022",
+        "newsH21":"Craft bespoke web apps tailored to unique client",
+        "newsP11":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+        "newsP12":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+        "newsP13":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
         "newsBy":"by",
 
 
@@ -71,7 +75,8 @@
         "contactMsj":"Message",
         "contactSend":"Send Message",
 
-        "sideHome":"Home"
+        "sideHome":"Home",
+        "share":"Share:"
     },
     "es": {
         "mainP":"Desarrollador apasionado con sede en Buenos Aires, dedicado al aprendizaje diario y en constante búsqueda de nuevos desafíos.",
@@ -135,8 +140,10 @@
 
         "newsTittle":"Noticias",
         "newsH1":"Ultimas Noticias",
-        "newsDate1":"07 de Abril del 2022",
         "newsBy":"por",
+
+
+        "newsDate1":"07 de Abril del 2022",
 
 
         "contactTittle":"Contacto",
@@ -146,6 +153,7 @@
         "contactSend":"Enviar Mensaje",
         
 
-        "sideHome":"Inicio"
+        "sideHome":"Inicio",
+        "share":"Compartir:"
     }
 }

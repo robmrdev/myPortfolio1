@@ -36,7 +36,6 @@
 }
 .newsImgContainer{
     position: relative;
-    overflow: hidden;
     min-height: 260px;
     height: 100%;
     width: 100%;
