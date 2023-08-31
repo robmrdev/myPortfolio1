@@ -148,27 +148,27 @@ const AboutMe = ({ language, translations }) => {
           <h3>{translations[language].aboutKnowledge}</h3>
           <ul>
             <li>
-              <i class="fi fi-br-angle-right"></i>
+              <i className="fi fi-br-angle-right"></i>
               <p className='knowledgeP'>SASS</p>
             </li>
             <li>
-              <i class="fi fi-br-angle-right"></i>
+              <i className="fi fi-br-angle-right"></i>
               <p className='knowledgeP'>Boostrap</p>
             </li>
             <li>
-              <i class="fi fi-br-angle-right"></i>
+              <i className="fi fi-br-angle-right"></i>
               <p className='knowledgeP'>Git</p>
             </li>
             <li>
-              <i class="fi fi-br-angle-right"></i>
+              <i className="fi fi-br-angle-right"></i>
               <p className='knowledgeP'>Github</p>
             </li>
             <li>
-              <i class="fi fi-br-angle-right"></i>
+              <i className="fi fi-br-angle-right"></i>
               <p className='knowledgeP'>Vite</p>
             </li>
             <li>
-              <i class="fi fi-br-angle-right"></i>
+              <i className="fi fi-br-angle-right"></i>
               <p className='knowledgeP'>NodeJs</p>
             </li>
           </ul>
@@ -177,27 +177,27 @@ const AboutMe = ({ language, translations }) => {
           <h3>{translations[language].aboutInterest}</h3>
           <ul>
             <li>
-              <i class="fi fi-br-angle-right"></i>
+              <i className="fi fi-br-angle-right"></i>
               <p className='knowledgeP'>Stack MERN</p>
             </li>
             <li>
-              <i class="fi fi-br-angle-right"></i>
+              <i className="fi fi-br-angle-right"></i>
               <p className='knowledgeP'>{translations[language].aboutInterestLi2}</p>
             </li>
             <li>
-              <i class="fi fi-br-angle-right"></i>
+              <i className="fi fi-br-angle-right"></i>
               <p className='knowledgeP'>{translations[language].aboutInterestLi3}</p>
             </li>
             <li>
-              <i class="fi fi-br-angle-right"></i>
+              <i className="fi fi-br-angle-right"></i>
               <p className='knowledgeP'>{translations[language].aboutInterestLi4}</p>
             </li>
             <li>
-              <i class="fi fi-br-angle-right"></i>
+              <i className="fi fi-br-angle-right"></i>
               <p className='knowledgeP'>{translations[language].aboutInterestLi5}</p>
             </li>
             <li>
-              <i class="fi fi-br-angle-right"></i>
+              <i className="fi fi-br-angle-right"></i>
               <p className='knowledgeP'>{translations[language].aboutInterestLi6}</p>
             </li>
           </ul>

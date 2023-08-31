@@ -1,0 +1,80 @@
+{
+    "portfolio":[
+        {
+        "id":"1",
+        "img1":"https://dummyimage.com/400x600/000/fff",
+        "img2":"https://dummyimage.com/400x600/000/fff",
+        "img3":"https://dummyimage.com/400x600/000/fff",
+        "img4":"https://dummyimage.com/400x600/000/fff",
+        "img5":"https://dummyimage.com/400x600/000/fff",
+        "tech":"1",
+        "techLogos":[
+            {
+                "name":"HTML",
+                "class":"fa-brands fa-html5"
+            },
+            {
+                "name":"CSS",
+                "class":"fa-brands fa-css3-alt"
+            },
+            {
+                "name":"JS",
+                "class":"fa-brands fa-js"
+            },
+            {
+                "name":"NodeJS",
+                "class":"fa-brands fa-node-js"
+            },
+            {
+                "name":"React",
+                "class":"fa-brands fa-react"
+            }
+        ]
+        
+        },
+        {
+        "id":"2",
+        "img1":"https://dummyimage.com/400x600/c448c4/fff",
+        "img2":"https://dummyimage.com/400x600/c448c4/fff",
+        "img3":"https://dummyimage.com/400x600/c448c4/fff",
+        "img4":"https://dummyimage.com/400x600/c448c4/fff",
+        "img5":"https://dummyimage.com/400x600/c448c4/fff",
+        "tech":"1",
+        "techLogos":[]
+        },
+        {
+        "id":"3",
+        "img1":"https://dummyimage.com/400x600/485fc2/fff",
+        "img2":"https://dummyimage.com/400x600/485fc2/fff",
+        "img3":"https://dummyimage.com/400x600/485fc2/fff",
+        "img4":"https://dummyimage.com/400x600/485fc2/fff",
+        "img5":"https://dummyimage.com/400x600/485fc2/fff",
+        "tech":"2",
+        "techLogos":[]
+        },
+        {
+        "id":"4",
+        "img1":"https://dummyimage.com/400x600/4cc24a/0011ff",
+        "img2":"https://dummyimage.com/400x600/4cc24a/0011ff",
+        "img3":"https://dummyimage.com/400x600/4cc24a/0011ff",
+        "img4":"https://dummyimage.com/400x600/4cc24a/0011ff",
+        "img5":"https://dummyimage.com/400x600/4cc24a/0011ff",
+        "tech":"2",
+        "techLogos":[]
+        },
+        {
+        "id":"5",
+        "img1":"https://dummyimage.com/400x600/c5cf3a/0011ff",
+        "img2":"https://dummyimage.com/400x600/c5cf3a/0011ff",
+        "img3":"https://dummyimage.com/400x600/c5cf3a/0011ff",
+        "img4":"https://dummyimage.com/400x600/c5cf3a/0011ff",
+        "img5":"https://dummyimage.com/400x600/c5cf3a/0011ff",
+        "tech":"3",
+        "techLogos":[]
+        }
+    ],
+    "news":{
+
+
+    }
+}

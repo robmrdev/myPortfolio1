@@ -22,6 +22,7 @@
 }
 .portfolioTop ul li{
     margin-left: 40px;
+    cursor: pointer;
 }
 .flexWrapper{
     margin: 0 0 0 -50px;
@@ -38,6 +39,7 @@
     margin: 0 0 50px;
     width: calc(50% - 50px);
     padding-left: 50px;
+    max-height: 500px;
 }
 
 .flexWrapper ul li img{
@@ -48,6 +50,7 @@
     overflow: hidden;
     overflow-clip-margin: content-box;
     object-fit: cover;
+    cursor: pointer;
 }
 .portfolioLi div img{
     transition: transform 0.7s ease;
@@ -101,5 +104,8 @@
         padding: 0;
         display: flex;
         justify-content: center;
+    }
+    .newsImgContainer{
+        height: auto!important;
     }
 }

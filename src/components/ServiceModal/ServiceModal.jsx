@@ -19,7 +19,7 @@ const ServiceModal = ({ isOpen, onClose, serviceSelector, language, translations
         <div className='modalContainer' onClick={onClose}>
             <div className='serviceWrapper'>
                 <div className='closeService'>
-                    <i class='fa-solid fa-x'></i>
+                    <i className='fa-solid fa-x'></i>
                 </div>
                 <div className='modal modalService' onClick={(e) => e.stopPropagation()}>
                     <div className='modalServiceImg'> </div>
@@ -32,13 +32,13 @@ const ServiceModal = ({ isOpen, onClose, serviceSelector, language, translations
                     <div className='shareDiv'>
                         <strong>{translations[language].share} </strong>
                         <div className='facebookColor'>
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <i className="fa-brands fa-facebook-f"></i>
                         </div>
                         <div className='xColor'>
-                            <i class="fa-brands fa-x-twitter"></i>
+                            <i className="fa-brands fa-x-twitter"></i>
                         </div>
                         <div className='linkedinColor'>
-                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i className="fa-brands fa-linkedin-in"></i>
                         </div>
                         <i></i>
                     </div>

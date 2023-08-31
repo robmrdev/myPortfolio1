@@ -1,5 +1,6 @@
 import "./PortfolioModal.css"
 import { useState } from "react";
+import portfolioData from "../../data/data.json"
 
 const portfolioPool = {
     1: "certf1",
@@ -15,33 +16,45 @@ const portfolioPool = {
 const PortfolioModal = ({ isOpen, onClose, portfolioSelector, language, translations }) => {
     if (!isOpen) return null;
 
-    const selectedPortfolio = portfolioPool[portfolioSelector]
+    const selectedPortfolio = portfolioData.portfolio[portfolioSelector]
 
-    
+
     const [isHovered, setIsHovered] = useState(false);
 
     const handleHover = () => {
-      setIsHovered(true);
+        setIsHovered(true);
     };
-  
+
     const handleMouseLeave = () => {
-      setIsHovered(false);
+        setIsHovered(false);
     };
     return (
         <div className='modalContainer' onClick={onClose}>
             <div className='serviceWrapper'>
                 <div className='closeService'>
-                    <i class='fa-solid fa-x'></i>
+                    <i className='fa-solid fa-x'></i>
                 </div>
                 <div className='modal modalService' onClick={(e) => e.stopPropagation()}>
                     <div className="portfolioGalery">
-                        <img src="https://dummyimage.com/400x600/000/fff" alt="" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave}/>
-                        <img src="https://dummyimage.com/400x600/c448c4/fff" alt="" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave}/>
-                        <img src="https://dummyimage.com/400x600/485fc2/fff" alt="" className={isHovered ? '' : 'portfolioGaleryMiddle'}/>
-                        <img src="https://dummyimage.com/400x600/4cc24a/0011ff" alt="" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave}/>
-                        <img src="https://dummyimage.com/400x600/c5cf3a/0011ff" alt="" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave}/>
+                        <img src={selectedPortfolio.img1} alt="" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave} />
+                        <img src={selectedPortfolio.img2} alt="" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave} />
+                        <img src={selectedPortfolio.img3} alt="" className={isHovered ? '' : 'portfolioGaleryMiddle'} />
+                        <img src={selectedPortfolio.img4} alt="" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave} />
+                        <img src={selectedPortfolio.img5} alt="" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave} />
                     </div>
-                    <h2>{translations[language].newsH21}</h2>
+                    <div className="portfolioModalHead">
+                        <h2>{translations[language].newsH21}</h2>
+                        <div className="techContainer">{ }
+                            {selectedPortfolio.techLogos.map((item) => (
+                                <div>
+                                    <div className={item.name.toLowerCase()}>
+                                        <i className={item.class}></i>
+                                    </div>
+                                        <p>{item.name}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
                     <article>
                         <p>{translations[language].newsP11}</p>
                         <p>{translations[language].newsP12}</p>
@@ -50,13 +63,13 @@ const PortfolioModal = ({ isOpen, onClose, portfolioSelector, language, translat
                     <div className='shareDiv'>
                         <strong>{translations[language].share} </strong>
                         <div className='facebookColor'>
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <i className="fa-brands fa-facebook-f"></i>
                         </div>
                         <div className='xColor'>
-                            <i class="fa-brands fa-x-twitter"></i>
+                            <i className="fa-brands fa-x-twitter"></i>
                         </div>
                         <div className='linkedinColor'>
-                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i className="fa-brands fa-linkedin-in"></i>
                         </div>
                         <i></i>
                     </div>

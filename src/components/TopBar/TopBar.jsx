@@ -4,7 +4,7 @@ const TopBar = ({ toggleMenu, menuAbierto }) => {
   return (
     <span className='topBar' >
         <h2>ROBERT M</h2>
-    <i class={menuAbierto ? 'fa-solid fa-x' : 'fa-solid fa-bars'} onClick={toggleMenu}></i>
+    <i className={menuAbierto ? 'fa-solid fa-x' : 'fa-solid fa-bars'} onClick={toggleMenu}></i>
     </span>
 
   )

@@ -19,7 +19,7 @@ const NewsModal = ({ isOpen, onClose, newsSelector, language, translations }) =>
         <div className='modalContainer' onClick={onClose}>
             <div className='serviceWrapper'>
                 <div className='closeService'>
-                    <i class='fa-solid fa-x'></i>
+                    <i className='fa-solid fa-x'></i>
                 </div>
                 <div className='modal modalService' onClick={(e) => e.stopPropagation()}>
                     <div className='modalServiceImg'> </div>
@@ -29,7 +29,7 @@ const NewsModal = ({ isOpen, onClose, newsSelector, language, translations }) =>
                         <p className='bigP'>{translations[language].newsP11}</p>
                         <p>{translations[language].newsP12}</p>
                         <div className='newsQuote'>
-                            <i class="fa-solid fa-quote-left"></i>
+                            <i className="fa-solid fa-quote-left"></i>
                             <p className='bigP'>{translations[language].newsP12}</p>
                         </div>
                         <p>{translations[language].newsP12}</p>
@@ -37,13 +37,13 @@ const NewsModal = ({ isOpen, onClose, newsSelector, language, translations }) =>
                     <div className='shareDiv'>
                         <strong>{translations[language].share} </strong>
                         <div className='facebookColor'>
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <i className="fa-brands fa-facebook-f"></i>
                         </div>
                         <div className='xColor'>
-                            <i class="fa-brands fa-x-twitter"></i>
+                            <i className="fa-brands fa-x-twitter"></i>
                         </div>
                         <div className='linkedinColor'>
-                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i className="fa-brands fa-linkedin-in"></i>
                         </div>
                         <i></i>
                     </div>
