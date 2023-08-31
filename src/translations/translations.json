@@ -1,159 +1,425 @@
 {
     "en": {
-        "mainP":"Passionate developer based in Buenos Aires, dedicated to daily learning and constantly seeking fresh challenges.",
-        "wordsToType":["Programmer", "Frontend Developer", "React Enthusiastic"],
-
-
-        "aboutTittle":" About ",
-        "aboutH1":"About me",
-        "aboutRole":"Web Developer",
-        "aboutDescription1":"Hello! My name is Robert Mendoza, and I'm a passionate programmer and developer. My journey began out of curiosity and quickly evolved into a profound passion. From day one, I've been enthusiastic about with every aspect of coding.",
-        "aboutDescription2":"At present, my specialization is centered on in taking ideas from inception and crafting fully functional websites. I don't just focus on responsive and attractive design; I go beyond that to create a unique, outstanding, and contemporary look and feel. My next step is integrating these ideas seamlessly into the client's project, ensuring minimal to no maintenance while ensuring they run smoothly for an extended period.",
-        "aboutLiStrong1":"Birthdate",
-        "aboutLiSpan1":"Nov 07 1990",
-        "aboutLiStrong2":"Age",
-        "aboutLiStrong3":"Location",
-        "aboutLiStrong5":"Nationality",
-        "aboutLiSpan5":"Venezuelan",
-        "aboutLiStrong6":"Education",
-        "aboutLiStrong7":"Degree",
-        "aboutLiSpan7":"B.Sc. in Biology (Incomplete)",
-        "aboutLiSpan8":"Avalible",
-        "aboutDownload":"Download CV",
-        "aboutSkills":"Programming Skills",
-        "aboutKnowledge":"Knowledge",
-        "aboutInterest":"Interests",
-        "aboutInterestLi2":"Create Mobile App",
-        "aboutInterestLi3":"Site Optimization",
-        "aboutInterestLi4":"Custom Website",
-        "aboutInterestLi5":"UX/UI Design",
-        "aboutInterestLi6":"Career Development",
-        "aboutEducationTime1":"Dec-2022 / Feb 2023",
-        "aboutEducationTittle1":"Web Development",
-        "aboutEducationCertificate":"Certificate",
-        "aboutEducationTime2":"Feb-2023 / Apr-2023",
-        "aboutEducationTime4":"Aug-2023 / Ongoing",
-        "aboutEducationTittle4":"Backend Development",
-
-
-        "servicesTittle":"Services",
-        "servicesH1":"What I Do",
-        "servicesH31":"Custom Web Design and Development",
-        "servicesP1":"Create tailor-made websites for clients that suit their specific needs and goals.",
-        "servicesReadMore":"READ MORE",
-        "servicesH32":"Website Redesign",
-        "servicesP2":"Enhance and update existing websites to improve their appearance and functionality.",
-        "servicesH33":"E-commerce Development",
-        "servicesP3":"Build online stores with e-commerce functionality, shopping carts, and payment gateways.",
-        "servicesH34":"Maintenance and Support",
-        "servicesP4":"Offer ongoing maintenance, updates, and technical support services for websites.",
-        "servicesH35":"User Experience Consulting",
-        "servicesP5":"Advise on how to improve website usability and overall user experience.",
-        "servicesH36":"Web Application Development",
-        "servicesP6":"Craft bespoke web apps tailored to unique client requirements for seamless digital experiences.",
-        
-
-        "portfolioTittle":"Portfolio",
-        "portfolioH1":"My Portfolio",
-        "portfolioAll":"All",
-        "portfolioOthers":"Others",
-
-
-        "newsTittle":"News",
-        "newsH1":"Latest News",
-        "newsDate1":"April 07 2022",
-        "newsH21":"Craft bespoke web apps tailored to unique client",
-        "newsP11":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-        "newsP12":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-        "newsP13":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-        "newsBy":"by",
-
-
-        "contactTittle":"Contact",
-        "contactH1":"Get In Touch",
-        "contactName":"Name",
-        "contactMsj":"Message",
-        "contactSend":"Send Message",
-
-        "sideHome":"Home",
-        "share":"Share:"
+        "mainP": "Passionate developer based in Buenos Aires, dedicated to daily learning and constantly seeking fresh challenges.",
+        "wordsToType": [
+            "Programmer",
+            "Frontend Developer",
+            "React Enthusiastic"
+        ],
+        "aboutTittle": " About ",
+        "aboutH1": "About me",
+        "aboutRole": "Web Developer",
+        "aboutDescription1": "Hello! My name is Robert Mendoza, and I'm a passionate programmer and developer. My journey began out of curiosity and quickly evolved into a profound passion. From day one, I've been enthusiastic about with every aspect of coding.",
+        "aboutDescription2": "At present, my specialization is centered on in taking ideas from inception and crafting fully functional websites. I don't just focus on responsive and attractive design; I go beyond that to create a unique, outstanding, and contemporary look and feel. My next step is integrating these ideas seamlessly into the client's project, ensuring minimal to no maintenance while ensuring they run smoothly for an extended period.",
+        "aboutLiStrong1": "Birthdate",
+        "aboutLiSpan1": "Nov 07 1990",
+        "aboutLiStrong2": "Age",
+        "aboutLiStrong3": "Location",
+        "aboutLiStrong5": "Nationality",
+        "aboutLiSpan5": "Venezuelan",
+        "aboutLiStrong6": "Education",
+        "aboutLiStrong7": "Degree",
+        "aboutLiSpan7": "B.Sc. in Biology (Incomplete)",
+        "aboutLiSpan8": "Avalible",
+        "aboutDownload": "Download CV",
+        "aboutSkills": "Programming Skills",
+        "aboutKnowledge": "Knowledge",
+        "aboutInterest": "Interests",
+        "aboutInterestLi2": "Create Mobile App",
+        "aboutInterestLi3": "Site Optimization",
+        "aboutInterestLi4": "Custom Website",
+        "aboutInterestLi5": "UX/UI Design",
+        "aboutInterestLi6": "Career Development",
+        "aboutEducationTime1": "Dec-2022 / Feb 2023",
+        "aboutEducationTittle1": "Web Development",
+        "aboutEducationCertificate": "Certificate",
+        "aboutEducationTime2": "Feb-2023 / Apr-2023",
+        "aboutEducationTime4": "Aug-2023 / Ongoing",
+        "aboutEducationTittle4": "Backend Development",
+        "services": [
+            {
+                "number": "01",
+                "serviceH3": "Custom Web Design and Development",
+                "serviceP": "Create tailor-made websites for clients that suit their specific needs and goals.",
+                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
+                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "number": "02",
+                "serviceH3": "Website Redesign",
+                "serviceP": "Enhance and update existing websites to improve their appearance and functionality.",
+                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
+                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "number": "03",
+                "serviceH3": "E-commerce Development",
+                "serviceP": "Build online stores with e-commerce functionality, shopping carts, and payment gateways.",
+                "img": "https://dummyimage.com/500x500/c448c4/0011ff",
+                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "number": "04",
+                "serviceH3": "Maintenance and Support",
+                "serviceP": "Offer ongoing maintenance, updates, and technical support services for websites.",
+                "img": "https://dummyimage.com/500x500/485fc2/0011ff",
+                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "number": "05",
+                "serviceH3": "User Experience Consulting",
+                "serviceP": "Advise on how to improve website usability and overall user experience.",
+                "img": "https://dummyimage.com/500x500/4cc24a/0011ff",
+                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "number": "06",
+                "serviceH3": "Web Application Development",
+                "serviceP": "Craft bespoke web apps tailored to unique client requirements for seamless digital experiences.",
+                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
+                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            }
+        ],
+        "servicesTittle": "Services",
+        "servicesH1": "What I Do",
+        "servicesReadMore": "READ MORE",
+        "portfolio": [
+            {
+                "tech": "1",
+                "h1": "TITLE 1",
+                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "tech": "1",
+                "h1": "TITLE 2",
+                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "tech": "2",
+                "h1": "TITLE 3",
+                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "tech": "2",
+                "h1": "TITLE 4",
+                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "tech": "3",
+                "h1": "TITLE 5",
+                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            }
+        ],
+        "portfolioTittle": "Portfolio",
+        "portfolioH1": "My Portfolio",
+        "portfolioAll": "All",
+        "portfolioOthers": "Others",
+        "newsTittle": "News",
+        "newsH1": "Latest News",
+        "newsBy": "by",
+        "news": [
+            {
+                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
+                "newsDate": "April 07 2022",
+                "newsH2": "Craft bespoke web apps tailored to unique client",
+                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
+                "newsDate": "April 07 2022",
+                "newsH2": "Craft bespoke web apps tailored to unique client",
+                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "img": "https://dummyimage.com/500x500/c448c4/0011ff",
+                "newsDate": "April 07 2022",
+                "newsH2": "Craft bespoke web apps tailored to unique client",
+                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "img": "https://dummyimage.com/500x500/485fc2/0011ff",
+                "newsDate": "April 07 2022",
+                "newsH2": "Craft bespoke web apps tailored to unique client",
+                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "img": "https://dummyimage.com/500x500/4cc24a/0011ff",
+                "newsDate": "April 07 2022",
+                "newsH2": "Craft bespoke web apps tailored to unique client",
+                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP13": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
+                "newsDate": "April 07 2022",
+                "newsH2": "Craft bespoke web apps tailored to unique client",
+                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP13": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            }
+        ],
+        "contactTittle": "Contact",
+        "contactH1": "Get In Touch",
+        "contactName": "Name",
+        "contactMsj": "Message",
+        "contactSend": "Send Message",
+        "sideHome": "Home",
+        "share": "Share:",
+        "portlofioPool": [
+            {}
+        ]
     },
     "es": {
-        "mainP":"Desarrollador apasionado con sede en Buenos Aires, dedicado al aprendizaje diario y en constante búsqueda de nuevos desafíos.",
-        "wordsToType":["Programador", "Desarrollador Frontend", "Fanático de React"],
-        
-        
-        "aboutTittle":" Perfil ",
-        "aboutH1":"Sobre Mi",
-        "aboutRole":"Desarrollador Web",
-        "aboutDescription1":"¡Hola! Mi nombre es Robert Mendoza, y soy un programador y desarrollador apasionado. Mi viaje comenzó por curiosidad y rápidamente se convirtió en una profunda pasión. Desde el primer día, he estado entusiasmado con cada aspecto de la programación.",
-        "aboutDescription2":"En la actualidad, mi especialización se centra en tomar ideas desde su concepción y crear sitios web completamente funcionales. No solo me enfoco en un diseño receptivo y atractivo; voy más allá para crear una apariencia y sensación únicas, destacadas y contemporáneas. Mi siguiente paso es integrar estas ideas de manera fluida en el proyecto del cliente, garantizando un mantenimiento mínimo o nulo y asegurando que funcionen sin problemas durante un período prolongado.",
-        "aboutLiStrong1":"Nacimiento",
-        "aboutLiSpan1":"07 Nov 1990",
-        "aboutLiStrong2":"Edad",
-        "aboutLiStrong3":"Ubicación",
-        "aboutLiStrong5":"Nacionalidad",
-        "aboutLiSpan5":"Venezolano",
-        "aboutLiStrong6":"Educación",
-        "aboutLiStrong7":"Título",
-        "aboutLiSpan7":"Lc en Cs, Biologia(Incompleto)",
-        "aboutLiSpan8":"Disponible",
-        "aboutDownload":"Descargar CV",
-        "aboutSkills":"Habilidades de Programación",
-        "aboutKnowledge":"Conocimiento",
-        "aboutInterest":"Intereses",
-        "aboutInterestLi2":"Crear app moviles",
-        "aboutInterestLi3":"Optimización de sitios",
-        "aboutInterestLi4":"Sitios Personalizados",
-        "aboutInterestLi5":"Diseño UX/UI",
-        "aboutInterestLi6":"Desarrollo Profesional",
-        "aboutEducationTime1":"Dic-2022 / Feb 2023",
-        "aboutEducationTittle1":"Desarrollo Web",
-        "aboutEducationCertificate":"Certificado",
-        "aboutEducationTime2":"Feb-2023 / Abr-2023",
-        "aboutEducationTime4":"Ago-2023 / En Curso",
-        "aboutEducationTittle4":"Desarrollo Backend",
+        "mainP": "Desarrollador apasionado con sede en Buenos Aires, dedicado al aprendizaje diario y en constante búsqueda de nuevos desafíos.",
+        "wordsToType": [
+            "Programador",
+            "Desarrollador Frontend",
+            "Fanático de React"
+        ],
+        "aboutTittle": " Perfil ",
+        "aboutH1": "Sobre Mi",
+        "aboutRole": "Desarrollador Web",
+        "aboutDescription1": "¡Hola! Mi nombre es Robert Mendoza, y soy un programador y desarrollador apasionado. Mi viaje comenzó por curiosidad y rápidamente se convirtió en una profunda pasión. Desde el primer día, he estado entusiasmado con cada aspecto de la programación.",
+        "aboutDescription2": "En la actualidad, mi especialización se centra en tomar ideas desde su concepción y crear sitios web completamente funcionales. No solo me enfoco en un diseño receptivo y atractivo; voy más allá para crear una apariencia y sensación únicas, destacadas y contemporáneas. Mi siguiente paso es integrar estas ideas de manera fluida en el proyecto del cliente, garantizando un mantenimiento mínimo o nulo y asegurando que funcionen sin problemas durante un período prolongado.",
+        "aboutLiStrong1": "Nacimiento",
+        "aboutLiSpan1": "07 Nov 1990",
+        "aboutLiStrong2": "Edad",
+        "aboutLiStrong3": "Ubicación",
+        "aboutLiStrong5": "Nacionalidad",
+        "aboutLiSpan5": "Venezolano",
+        "aboutLiStrong6": "Educación",
+        "aboutLiStrong7": "Título",
+        "aboutLiSpan7": "Lc en Cs, Biologia(Incompleto)",
+        "aboutLiSpan8": "Disponible",
+        "aboutDownload": "Descargar CV",
+        "aboutSkills": "Habilidades de Programación",
+        "aboutKnowledge": "Conocimiento",
+        "aboutInterest": "Intereses",
+        "aboutInterestLi2": "Crear app moviles",
+        "aboutInterestLi3": "Optimización de sitios",
+        "aboutInterestLi4": "Sitios Personalizados",
+        "aboutInterestLi5": "Diseño UX/UI",
+        "aboutInterestLi6": "Desarrollo Profesional",
+        "aboutEducationTime1": "Dic-2022 / Feb 2023",
+        "aboutEducationTittle1": "Desarrollo Web",
+        "aboutEducationCertificate": "Certificado",
+        "aboutEducationTime2": "Feb-2023 / Abr-2023",
+        "aboutEducationTime4": "Ago-2023 / En Curso",
+        "aboutEducationTittle4": "Desarrollo Backend",
+        "servicesTittle": "Servicios",
+        "servicesH1": "Que Puedo Hacer",
+        "servicesReadMore": "LEER MAS",
+        "services": [
+            {
+                "number": "01",
+                "serviceH3": "Diseño y Desarrollo Web Personalizado",
+                "serviceP": "Crear sitios web a medida para clientes que se ajusten a sus necesidades y objetivos específicos.",
+                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
+                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "number": "02",
+                "serviceH3": "Rediseño de Sitios Web",
+                "serviceP": "Mejorar y actualizar sitios web existentes para mejorar su apariencia y funcionalidad.",
+                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
+                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "number": "03",
+                "serviceH3": "Desarrollo de E-commerce",
+                "serviceP": "Crear tiendas en línea con funcionalidad de E-commerce, carritos de compras y pasarelas de pago.",
+                "img": "https://dummyimage.com/500x500/c448c4/0011ff",
+                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "number": "04",
+                "serviceH3": "Mantenimiento y Soporte",
+                "serviceP": "Ofrecer servicios continuos de mantenimiento, actualizaciones y soporte técnico para sitios web.",
+                "img": "https://dummyimage.com/500x500/485fc2/0011ff",
+                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "number": "05",
+                "serviceH3": "Consultoría de Experiencia de Usuario",
+                "serviceP": "Asesorar sobre cómo mejorar la usabilidad del sitio web y la experiencia general del usuario.",
+                "img": "https://dummyimage.com/500x500/4cc24a/0011ff",
+                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "number": "06",
+                "serviceH3": "Desarrollo de Aplicaciones Web",
+                "serviceP": "Crear aplicaciones web personalizadas adaptadas a los requisitos del cliente para experiencias digitales continuas.",
+                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
+                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            }
+        ],
+        "portfolio": [
+            {
+                "tech": "1",
+                "h1": "TITULO 1",
+                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "tech": "1",
+                "h1": "TITULO 2",
+                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "tech": "2",
+                "h1": "TITULO 3",
+                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "tech": "2",
+                "h1": "TITULO 4",
+                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "tech": "3",
+                "h1": "TITULO 5",
+                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            }
+        ],
+        "servicesH32": "Rediseño de Sitios Web",
+        "servicesP2": "Mejorar y actualizar sitios web existentes para mejorar su apariencia y funcionalidad.",
+        "servicesH33": "Desarrollo de E-commerce",
+        "servicesP3": "Crear tiendas en línea con funcionalidad de E-commerce, carritos de compras y pasarelas de pago.",
+        "servicesH34": "Mantenimiento y Soporte",
+        "servicesP4": "Ofrecer servicios continuos de mantenimiento, actualizaciones y soporte técnico para sitios web.",
+        "servicesH35": "Consultoría de Experiencia de Usuario",
+        "servicesP5": "Asesorar sobre cómo mejorar la usabilidad del sitio web y la experiencia general del usuario.",
+        "servicesH36": "Desarrollo de Aplicaciones Web",
+        "servicesP6": "Crear aplicaciones web personalizadas adaptadas a los requisitos del cliente para experiencias digitales continuas.",
+        "portfolioTittle": "Portafolio",
+        "portfolioH1": "Mi Portafolio",
+        "portfolioAll": "Todos",
+        "portfolioOthers": "Otros",
 
 
-        "servicesTittle":"Servicios",
-        "servicesH1":"Que Puedo Hacer",
-        "servicesH31":"Diseño y Desarrollo Web Personalizado",
-        "servicesP1":"Crear sitios web a medida para clientes que se ajusten a sus necesidades y objetivos específicos.",
-        "servicesReadMore":"LEER MAS",
-        "servicesH32":"Rediseño de Sitios Web",
-        "servicesP2":"Mejorar y actualizar sitios web existentes para mejorar su apariencia y funcionalidad.",
-        "servicesH33":"Desarrollo de E-commerce",
-        "servicesP3":"Crear tiendas en línea con funcionalidad de E-commerce, carritos de compras y pasarelas de pago.",
-        "servicesH34":"Mantenimiento y Soporte",
-        "servicesP4":"Ofrecer servicios continuos de mantenimiento, actualizaciones y soporte técnico para sitios web.",
-        "servicesH35":"Consultoría de Experiencia de Usuario",
-        "servicesP5":"Asesorar sobre cómo mejorar la usabilidad del sitio web y la experiencia general del usuario.",
-        "servicesH36":"Desarrollo de Aplicaciones Web",
-        "servicesP6":"Crear aplicaciones web personalizadas adaptadas a los requisitos del cliente para experiencias digitales continuas.",
-        
-
-        "portfolioTittle":"Portafolio",
-        "portfolioH1":"Mi Portafolio",
-        "portfolioAll":"Todos",
-        "portfolioOthers":"Otros",
-
-
-        "newsTittle":"Noticias",
-        "newsH1":"Ultimas Noticias",
-        "newsBy":"por",
-
-
-        "newsDate1":"07 de Abril del 2022",
-
-
-        "contactTittle":"Contacto",
-        "contactH1":"Ponte en Contacto",
-        "contactName":"Nombre",
-        "contactMsj":"Mensaje",
-        "contactSend":"Enviar Mensaje",
-        
-
-        "sideHome":"Inicio",
-        "share":"Compartir:"
+        "newsTittle": "Noticias",
+        "newsH1": "Ultimas Noticias",
+        "newsBy": "por",
+        "news": [
+            {
+                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
+                "newsDate": "April 07 2022",
+                "newsH2": "Craft bespoke web apps tailored to unique client",
+                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
+                "newsDate": "April 07 2022",
+                "newsH2": "Craft bespoke web apps tailored to unique client",
+                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "img": "https://dummyimage.com/500x500/c448c4/0011ff",
+                "newsDate": "April 07 2022",
+                "newsH2": "Craft bespoke web apps tailored to unique client",
+                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "img": "https://dummyimage.com/500x500/485fc2/0011ff",
+                "newsDate": "April 07 2022",
+                "newsH2": "Craft bespoke web apps tailored to unique client",
+                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "img": "https://dummyimage.com/500x500/4cc24a/0011ff",
+                "newsDate": "April 07 2022",
+                "newsH2": "Craft bespoke web apps tailored to unique client",
+                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP13": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            },
+            {
+                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
+                "newsDate": "April 07 2022",
+                "newsH2": "Craft bespoke web apps tailored to unique client",
+                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
+                "newsP13": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+            }
+        ],
+        "contactTittle": "Contacto",
+        "contactH1": "Ponte en Contacto",
+        "contactName": "Nombre",
+        "contactMsj": "Mensaje",
+        "contactSend": "Enviar Mensaje",
+        "sideHome": "Inicio",
+        "share": "Compartir:"
     }
 }

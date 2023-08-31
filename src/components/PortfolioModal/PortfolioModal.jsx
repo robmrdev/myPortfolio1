@@ -17,7 +17,7 @@ const PortfolioModal = ({ isOpen, onClose, portfolioSelector, language, translat
     if (!isOpen) return null;
 
     const selectedPortfolio = portfolioData.portfolio[portfolioSelector]
-
+    
 
     const [isHovered, setIsHovered] = useState(false);
 
@@ -43,10 +43,10 @@ const PortfolioModal = ({ isOpen, onClose, portfolioSelector, language, translat
                         <img src={selectedPortfolio.img5} alt="" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave} />
                     </div>
                     <div className="portfolioModalHead">
-                        <h2>{translations[language].newsH21}</h2>
+                        <h2>{translations[language].portfolio[portfolioSelector].h1}</h2>
                         <div className="techContainer">{ }
-                            {selectedPortfolio.techLogos.map((item) => (
-                                <div>
+                            {selectedPortfolio.techLogos.map((item, index) => (
+                                <div key={index}>
                                     <div className={item.name.toLowerCase()}>
                                         <i className={item.class}></i>
                                     </div>
@@ -56,9 +56,9 @@ const PortfolioModal = ({ isOpen, onClose, portfolioSelector, language, translat
                         </div>
                     </div>
                     <article>
-                        <p>{translations[language].newsP11}</p>
-                        <p>{translations[language].newsP12}</p>
-                        <p>{translations[language].newsP12}</p>
+                        <p>{translations[language].portfolio[portfolioSelector].portfolioP1}</p>
+                        <p>{translations[language].portfolio[portfolioSelector].portfolioP2}</p>
+                        <p>{translations[language].portfolio[portfolioSelector].portfolioP3}</p>
                     </article>
                     <div className='shareDiv'>
                         <strong>{translations[language].share} </strong>

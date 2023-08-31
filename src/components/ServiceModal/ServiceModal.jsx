@@ -1,19 +1,16 @@
 import './ServiceModal.css'
 
 
-const servicePool = {
+const newsPool = {
     1: "certf1",
     2: "certf2",
-    3: "certf3",
-    4: "certf1",
-    5: "certf2",
-    6: "certf3"
+    3: "certf3"
 }
 
 const ServiceModal = ({ isOpen, onClose, serviceSelector, language, translations }) => {
     if (!isOpen) return null;
 
-    const selectedService = servicePool[serviceSelector]
+    // const selectedNews = newsPool[newsSelector]
 
     return (
         <div className='modalContainer' onClick={onClose}>
@@ -22,12 +19,12 @@ const ServiceModal = ({ isOpen, onClose, serviceSelector, language, translations
                     <i className='fa-solid fa-x'></i>
                 </div>
                 <div className='modal modalService' onClick={(e) => e.stopPropagation()}>
-                    <div className='modalServiceImg'> </div>
-                    <h2>{translations[language].newsH21}</h2>
+                    <div className='modalServiceImg' style={{ backgroundImage:`url(${translations[language].services[serviceSelector].img})` }}> </div>
+                    <h2>{translations[language].services[serviceSelector].serviceH3}</h2>
                     <article>
-                        <p>{translations[language].newsP11}</p>
-                        <p>{translations[language].newsP12}</p>
-                        <p>{translations[language].newsP12}</p>
+                        <p>{translations[language].services[serviceSelector].serviceP1}</p>
+                        <p>{translations[language].services[serviceSelector].serviceP2}</p>
+                        <p>{translations[language].services[serviceSelector].serviceP3}</p>
                     </article>
                     <div className='shareDiv'>
                         <strong>{translations[language].share} </strong>
@@ -50,3 +47,4 @@ const ServiceModal = ({ isOpen, onClose, serviceSelector, language, translations
 }
 
 export default ServiceModal
+
