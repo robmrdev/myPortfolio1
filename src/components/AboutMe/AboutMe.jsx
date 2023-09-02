@@ -32,7 +32,7 @@ const AboutMe = ({ language, translations }) => {
           <div className='markTittle'>{translations[language].aboutTittle}</div>
           <h1>{translations[language].aboutH1}</h1>
           <div className='profilePic'>
-            <img src="../../../public/img/profile.jpeg" alt="Profile Pic" />
+            <img src="../img/profile.jpeg" alt="Profile Pic" />
           </div>
         </div>
         <div className='aboutWidth'>
