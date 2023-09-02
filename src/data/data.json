@@ -1,80 +1,129 @@
 {
-    "portfolio":[
+    "portfolio": [
         {
-        "id":"1",
-        "img1":"https://dummyimage.com/400x600/000/fff",
-        "img2":"https://dummyimage.com/400x600/000/fff",
-        "img3":"https://dummyimage.com/400x600/000/fff",
-        "img4":"https://dummyimage.com/400x600/000/fff",
-        "img5":"https://dummyimage.com/400x600/000/fff",
-        "tech":"1",
-        "techLogos":[
-            {
-                "name":"HTML",
-                "class":"fa-brands fa-html5"
-            },
-            {
-                "name":"CSS",
-                "class":"fa-brands fa-css3-alt"
-            },
-            {
-                "name":"JS",
-                "class":"fa-brands fa-js"
-            },
-            {
-                "name":"NodeJS",
-                "class":"fa-brands fa-node-js"
-            },
-            {
-                "name":"React",
-                "class":"fa-brands fa-react"
-            }
-        ]
-        
+            "img1": "../img/portfolio1.jpg",
+            "img2": "../img/portfolio2.jpg",
+            "img3": "../img/portfolio3.jpg",
+            "img4": "../img/portfolio4.jpg",
+            "img5": "../img/portfolio5.jpg",
+            "tech": "2",
+            "techLogos": [
+                {
+                    "name": "HTML",
+                    "class": "fa-brands fa-html5"
+                },
+                {
+                    "name": "CSS",
+                    "class": "fa-brands fa-css3-alt"
+                },
+                {
+                    "name": "JS",
+                    "class": "fa-brands fa-js"
+                },
+                {
+                    "name": "NodeJS",
+                    "class": "fa-brands fa-node-js"
+                },
+                {
+                    "name": "React",
+                    "class": "fa-brands fa-react"
+                }
+            ]
         },
         {
-        "id":"2",
-        "img1":"https://dummyimage.com/400x600/c448c4/fff",
-        "img2":"https://dummyimage.com/400x600/c448c4/fff",
-        "img3":"https://dummyimage.com/400x600/c448c4/fff",
-        "img4":"https://dummyimage.com/400x600/c448c4/fff",
-        "img5":"https://dummyimage.com/400x600/c448c4/fff",
-        "tech":"1",
-        "techLogos":[]
+            "img1": "../img/uku2.jpg",
+            "img2": "../img/uku3.jpg",
+            "img3": "../img/uku1.jpg",
+            "img4": "../img/uku4.jpg",
+            "img5": "../img/uku5.jpg",
+            "tech": "3",
+            "techLogos": [
+                {
+                    "name": "HTML",
+                    "class": "fa-brands fa-html5"
+                },
+                {
+                    "name": "CSS",
+                    "class": "fa-brands fa-css3-alt"
+                }
+            ]
         },
         {
-        "id":"3",
-        "img1":"https://dummyimage.com/400x600/485fc2/fff",
-        "img2":"https://dummyimage.com/400x600/485fc2/fff",
-        "img3":"https://dummyimage.com/400x600/485fc2/fff",
-        "img4":"https://dummyimage.com/400x600/485fc2/fff",
-        "img5":"https://dummyimage.com/400x600/485fc2/fff",
-        "tech":"2",
-        "techLogos":[]
+            "img1": "../img/quiz2.jpg",
+            "img2": "../img/quiz3.jpg",
+            "img3": "../img/quiz1.jpg",
+            "img4": "../img/quiz4.jpg",
+            "img5": "../img/quiz5.jpg",
+            "tech": "1",
+            "techLogos": [
+                {
+                    "name": "HTML",
+                    "class": "fa-brands fa-html5"
+                },
+                {
+                    "name": "CSS",
+                    "class": "fa-brands fa-css3-alt"
+                },
+                {
+                    "name": "JS",
+                    "class": "fa-brands fa-js"
+                }
+            ]
         },
         {
-        "id":"4",
-        "img1":"https://dummyimage.com/400x600/4cc24a/0011ff",
-        "img2":"https://dummyimage.com/400x600/4cc24a/0011ff",
-        "img3":"https://dummyimage.com/400x600/4cc24a/0011ff",
-        "img4":"https://dummyimage.com/400x600/4cc24a/0011ff",
-        "img5":"https://dummyimage.com/400x600/4cc24a/0011ff",
-        "tech":"2",
-        "techLogos":[]
+            "img1": "../img/fakeIkea2.jpg",
+            "img2": "../img/fakeIkea3.jpg",
+            "img3": "../img/fakeIkea1.jpg",
+            "img4": "../img/fakeIkea4.jpg",
+            "img5": "../img/fakeIkea5.jpg",
+            "tech": "2",
+            "techLogos": [
+                {
+                    "name": "HTML",
+                    "class": "fa-brands fa-html5"
+                },
+                {
+                    "name": "CSS",
+                    "class": "fa-brands fa-css3-alt"
+                },
+                {
+                    "name": "JS",
+                    "class": "fa-brands fa-js"
+                },
+                {
+                    "name": "NodeJS",
+                    "class": "fa-brands fa-node-js"
+                },
+                {
+                    "name": "React",
+                    "class": "fa-brands fa-react"
+                }
+            ]
         },
         {
-        "id":"5",
-        "img1":"https://dummyimage.com/400x600/c5cf3a/0011ff",
-        "img2":"https://dummyimage.com/400x600/c5cf3a/0011ff",
-        "img3":"https://dummyimage.com/400x600/c5cf3a/0011ff",
-        "img4":"https://dummyimage.com/400x600/c5cf3a/0011ff",
-        "img5":"https://dummyimage.com/400x600/c5cf3a/0011ff",
-        "tech":"3",
-        "techLogos":[]
+            "img1": "../img/maze5.jpg",
+            "img2": "../img/maze2.jpg",
+            "img3": "../img/maze1.jpg",
+            "img4": "../img/maze4.jpg",
+            "img5": "../img/maze3.jpg",
+            "tech": "1",
+            "techLogos": [
+                {
+                    "name": "HTML",
+                    "class": "fa-brands fa-html5"
+                },
+                {
+                    "name": "CSS",
+                    "class": "fa-brands fa-css3-alt"
+                },
+                {
+                    "name": "JS",
+                    "class": "fa-brands fa-js"
+                }
+            ]
         }
     ],
-    "news":{
-
-
-    }
+    "news": [
+        
+    ]
 }

@@ -4,6 +4,7 @@ import PortfolioModal from '../PortfolioModal/PortfolioModal';
 
 import portfolioData from "../../data/data.json"
 
+
 const Portfolio = ({ language, translations }) => {
 
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -18,6 +19,7 @@ const Portfolio = ({ language, translations }) => {
   const openModal = (currentPortfolio) => {
     setCurrentPortfolio(currentPortfolio);
     setIsModalOpen(true);
+    console.log(filteredModal)
   };
 
   const closeModal = () => {
@@ -40,7 +42,7 @@ const Portfolio = ({ language, translations }) => {
   }, []);
   return (
     <>
-      <PortfolioModal language={language} translations={translations} isOpen={isModalOpen} onClose={closeModal} portfolioSelector={currentPortfolio} />
+      <PortfolioModal language={language} translations={translations} isOpen={isModalOpen} onClose={closeModal} portfolioSelector={currentPortfolio} filteredPortfolio= {filteredPortfolio} filteredModal={filteredModal}/>
       <span className='aboutWidth portfolioContainer slideIn'>
         <div className='topWrapper'>
           <div className='markTittleContainer'>
@@ -56,6 +58,7 @@ const Portfolio = ({ language, translations }) => {
             </ul>
           </div>
         </div>
+        
         <div className='flexWrapper'>
           <ul>
             {filteredPortfolio.map((item, index) => (

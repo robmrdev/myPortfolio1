@@ -41,55 +41,55 @@
                 "number": "01",
                 "serviceH3": "Custom Web Design and Development",
                 "serviceP": "Create tailor-made websites for clients that suit their specific needs and goals.",
-                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
-                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "img": "../img/service01.jpg",
+                "serviceP1": "As a dedicated Web Developer, my passion lies in crafting bespoke websites that perfectly align with each client's unique requirements and objectives. I work closely with clients to understand their vision, ensuring that every element of the website is tailored to their specific needs.",
+                "serviceP2": "My approach to Custom Web Design and Development goes beyond aesthetics. I prioritize functionality and user experience, utilizing the latest technologies and industry best practices to create seamless, responsive websites that engage visitors and drive results. Whether it's an e-commerce platform, a portfolio site, or a blog, I'm committed to delivering excellence.",
+                "serviceP3": "At the heart of my service is a commitment to turning your digital dreams into reality. I am here to transform your ideas into a visually stunning and fully functional website that not only meets but exceeds your expectations. Let's embark on this collaborative journey, where your vision meets my technical expertise to create a web presence that truly stands out."
             },
             {
                 "number": "02",
                 "serviceH3": "Website Redesign",
                 "serviceP": "Enhance and update existing websites to improve their appearance and functionality.",
-                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
-                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "img": "../img/service02.jpg",
+                "serviceP1": "As a driven Web Developer, my expertise extends to the art of Website Redesign. I specialize in enhancing and modernizing existing websites to elevate their visual appeal and functionality. Collaborating closely with clients, I breathe new life into their digital presence",
+                "serviceP2": "My approach to Website Redesign is a fusion of creativity and technical prowess. I meticulously analyze every aspect of your current website, identifying areas for improvement and implementing cutting-edge design and functionality upgrades. The result? A revamped online platform that captivates your audience.",
+                "serviceP3": "Unlock the potential of your online presence with our Website Redesign service. I'm committed to turning your outdated website into a modern masterpiece. Let's work together to breathe fresh life into your digital brand, ensuring it not only looks stunning but also performs flawlessly, delivering an exceptional user experience."
             },
             {
                 "number": "03",
                 "serviceH3": "E-commerce Development",
                 "serviceP": "Build online stores with e-commerce functionality, shopping carts, and payment gateways.",
-                "img": "https://dummyimage.com/500x500/c448c4/0011ff",
-                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "img": "../img/service03.jpg",
+                "serviceP1": "As an E-commerce Developer, I specialize in crafting robust online stores equipped with seamless e-commerce functionality, user-friendly shopping carts, and secure payment gateways. My expertise lies in delivering a flawless shopping experience, recognizing that your e-commerce venture is not just a website but your digital storefront.",
+                "serviceP2": "My approach to E-commerce Development is rooted in delivering a flawless shopping experience. I meticulously design and build online stores tailored to your specific business needs, ensuring that your customers can browse, select, and purchase products effortlessly. Your success in the world of e-commerce is my ultimate goal.",
+                "serviceP3": "Elevate your online retail presence with our E-commerce Development services. I'm dedicated to bringing your vision to life by creating a dynamic e-commerce platform that not only showcases your products beautifully but also streamlines the entire shopping process. Let's work together to transform your digital storefront into a thriving online marketplace."
             },
             {
                 "number": "04",
                 "serviceH3": "Maintenance and Support",
                 "serviceP": "Offer ongoing maintenance, updates, and technical support services for websites.",
-                "img": "https://dummyimage.com/500x500/485fc2/0011ff",
-                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "img": "../img/service04.jpg",
+                "serviceP1": "As a dedicated provider of Maintenance and Support services, I understand the importance of keeping your online presence in peak condition. I offer continuous website maintenance, regular updates, and responsive technical support to ensure that your digital assets remain secure, up-to-date, and perform at their best.",
+                "serviceP2": "My approach to Maintenance and Support is proactive and client-focused. I tailor my services to meet your specific needs, whether it's fixing bugs, implementing security patches, or enhancing website functionality. I'm your reliable partner in safeguarding and optimizing your online investment.",
+                "serviceP3": "Trust me to be your go-to resource for Maintenance and Support. I'm here to give you peace of mind, knowing that your website is in capable hands. My commitment is to provide timely and efficient assistance, allowing you to focus on your core business while I handle the technical aspects of maintaining and improving your digital presence."
             },
             {
                 "number": "05",
                 "serviceH3": "User Experience Consulting",
                 "serviceP": "Advise on how to improve website usability and overall user experience.",
-                "img": "https://dummyimage.com/500x500/4cc24a/0011ff",
-                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "img": "../img/service05.jpg",
+                "serviceP1": "As a dedicated User Experience Consultant, my mission is to empower you with insights and strategies to enhance website usability and deliver an exceptional user experience. I analyze your digital platform meticulously, offering tailored advice to optimize navigation, functionality, and design.",
+                "serviceP2": "My approach to User Experience Consulting is grounded in a deep understanding of user behavior. I collaborate closely with you to identify pain points and opportunities for improvement, ensuring that your website becomes more intuitive, engaging, and better aligned with the needs of your audience.",
+                "serviceP3": "Elevate your online presence with our User Experience Consulting services. I'm committed to helping you create websites that not only look great but also delight and engage users. Let's work together to transform your digital platform into a user-centric hub that drives satisfaction and loyalty among your audience."
             },
             {
                 "number": "06",
                 "serviceH3": "Web Application Development",
                 "serviceP": "Craft bespoke web apps tailored to unique client requirements for seamless digital experiences.",
-                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
-                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "img": "../img/service06.jpg",
+                "serviceP1": "As a skilled Web Application Developer, I specialize in crafting custom web applications tailored to meet each client's unique requirements. My focus is on creating highly functional and user-centric digital solutions that enhance the online experience.",
+                "serviceP2": "My approach to Web Application Development is rooted in innovation and problem-solving. I collaborate closely with clients to dissect their specific needs and objectives, ensuring that each web app I create is a finely tuned instrument designed to streamline processes, engage users, and deliver tangible results.",
+                "serviceP3": "Elevate your online presence with our Web Application Development services. Whether you need a robust web-based tool, an interactive platform, or a dynamic web application, I'm here to transform your vision into a functional, intuitive solution. Let's embark on this journey together, crafting web apps that empower your business and captivate your audience."
             }
         ],
         "servicesTittle": "Services",
@@ -97,39 +97,39 @@
         "servicesReadMore": "READ MORE",
         "portfolio": [
             {
-                "tech": "1",
-                "h1": "TITLE 1",
-                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
-            },
-            {
-                "tech": "1",
-                "h1": "TITLE 2",
-                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
-            },
-            {
                 "tech": "2",
-                "h1": "TITLE 3",
-                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
-            },
-            {
-                "tech": "2",
-                "h1": "TITLE 4",
-                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "h1": "PORTFOLIO",
+                "portfolioP1": "As a web developer, my personal portfolio is a work in constant evolution. Developed with React and JavaScript, it showcases my ability to create attractive and dynamic interfaces. Furthermore, Node.js strengthens the integration, ensuring a smooth user experience and solid performance.",
+                "portfolioP2": "An essential part of my portfolio is my personal blog project. Here, I apply my web development knowledge to share relevant content. The implementation of React and JavaScript ensures intuitive navigation, while Node.js supports efficient data management and user interaction.",
+                "portfolioP3": "My personal portfolio as a web developer is a constantly evolving project. It represents my capability to craft engaging and dynamic digital experiences. The incorporation of cutting-edge technologies ensures robust performance and a seamless user experience. This portfolio reflects my dedication to excellence in web development and my passion for technological innovation."
             },
             {
                 "tech": "3",
-                "h1": "TITLE 5",
-                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "h1": "UKULELE",
+                "portfolioP1": "My first web project represents a significant milestone in my journey as a developer. This website, dedicated to the ukulele and my favorite artists, was a pivotal moment in my early programming endeavors. Created using only HTML and CSS, it showcases my initial steps in web development.",
+                "portfolioP2": "As I delved into web design, this project allowed me to combine my passion for the ukulele and my newfound coding skills. The simplicity of HTML and CSS enabled me to bring my creative vision to life, offering visitors a glimpse into my musical world.",
+                "portfolioP3": "This website, although basic in its design and technology, holds sentimental value for me. It serves as a reminder of my humble beginnings, sparking my enthusiasm for both web development and music. It's a testament to how far I've come since those early days, while always cherishing my roots as a web developer and ukulele enthusiast."
+            },
+            {
+                "tech": "1",
+                "h1": "QUIZ",
+                "portfolioP1": "My Harry Potter House Quiz project was an exciting dive into the world of web development. Through this project, I was able to apply advanced JavaScript skills to create an interactive and immersive Quiz. Users have the opportunity to answer a series of questions based on the Harry Potter universe and, in the end, discover which Hogwarts house they belong to.",
+                "portfolioP2": "This project stood out for its ability to provide users with an immersive and engaging experience as they navigated through a carefully crafted questionnaire. The selection of questions and design of responses were meticulously done to ensure an authentic and appealing experience for Harry Potter fans.",
+                "portfolioP3": "Through this project, I solidified my understanding of JavaScript logic and DOM manipulation while continuing to explore the thrilling realm of web development. This experience inspired me to keep creating interactive and captivating web applications that captivate users and provide moments of fun and entertainment."
+            },
+            {
+                "tech": "2",
+                "h1": "FAKE IKEA",
+                "portfolioP1": "My IKEA website clone project was an exciting venture into web development using React. This interactive application closely resembles the famous furniture store, providing users with a complete online shopping experience. The shopping cart functionality allows users to select products and manage their purchases efficiently.",
+                "portfolioP2": "A standout feature of the application is the implementation of checkout and automatic order number generation. Users can easily complete their purchases, and each order is stored in a Google Firebase database, enabling precise transaction tracking and easy access to purchase details.",
+                "portfolioP3": "In addition to shopping functions, the application also offers a wide range of product categories, making it easy for users to find exactly what they're looking for. This project challenged me to apply my web development knowledge practically and create a comprehensive and engaging user experience. It was a valuable lesson in building interactive and functional web applications."
+            },
+            {
+                "tech": "1",
+                "h1": "MAZE",
+                "portfolioP1": "My maze project represents a significant step in my development as a programmer. This challenging endeavor was designed to apply key JavaScript concepts and enhance my skills in mouse events. The objective of the game is straightforward: navigate through the maze and reach a specific point.",
+                "portfolioP2": "The project offers three levels of difficulty that users can choose from, adding an element of choice and challenge to the game. Each level features a unique maze design, allowing me to practice data structure creation and algorithms for generating random mazes.",
+                "portfolioP3": "Through the implementation of JavaScript events, the maze project provided me with valuable experience in dynamically manipulating HTML elements. It also helped solidify my knowledge in web development and fostered my passion for programming by creating interactive and engaging experiences. This project marked a significant milestone in my learning journey and motivated me to continue exploring new technologies and challenges in web development."
             }
         ],
         "portfolioTittle": "Portfolio",
@@ -141,37 +141,37 @@
         "newsBy": "by",
         "news": [
             {
-                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
+                "img": "../img/desarrolloWeb.png",
                 "newsDate": "April 07 2022",
-                "newsH2": "Craft bespoke web apps tailored to unique client",
-                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsH2": "Starting the Journey: My Career as a Web Developer Begins Here.",
+                "newsP": "Starting My Career as a Web Developer.",
                 "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
             },
             {
-                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
+                "img": "../img/javascript.png",
                 "newsDate": "April 07 2022",
-                "newsH2": "Craft bespoke web apps tailored to unique client",
-                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsH2": "Mastering the Language of the Web: Celebrating the Completion of My JavaScript Course.",
+                "newsP": "JavaScript: A Path to Success and Culmination.",
                 "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
             },
             {
-                "img": "https://dummyimage.com/500x500/c448c4/0011ff",
+                "img": "../img/reactJS.png",
                 "newsDate": "April 07 2022",
-                "newsH2": "Craft bespoke web apps tailored to unique client",
-                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsH2": "From Learning to Mastery: One Step Closer to Mastery in React.",
+                "newsP": "One Step Closer to Mastery in React.",
                 "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
             },
             {
-                "img": "https://dummyimage.com/500x500/485fc2/0011ff",
+                "img": "../img/desarrolladorFrontEnd.png",
                 "newsDate": "April 07 2022",
-                "newsH2": "Craft bespoke web apps tailored to unique client",
-                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsH2": "Graduation and New Beginnings: Culminating My Front-End Development Career.",
+                "newsP": "Front-End Career: Graduation and New Horizons!.",
                 "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
@@ -251,92 +251,92 @@
                 "number": "01",
                 "serviceH3": "Diseño y Desarrollo Web Personalizado",
                 "serviceP": "Crear sitios web a medida para clientes que se ajusten a sus necesidades y objetivos específicos.",
-                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
-                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "img": "../img/service01.jpg",
+                "serviceP1": "Como un dedicado Desarrollador Web, mi pasión reside en la creación de sitios web personalizados que se ajusten perfectamente a las necesidades y objetivos únicos de cada cliente. Trabajo en estrecha colaboración con los clientes para comprender su visión, asegurando que cada elemento del sitio web esté adaptado a sus necesidades específicas.",
+                "serviceP2": "Mi enfoque en el Diseño y Desarrollo Web Personalizado va más allá de la estética. Priorizo la funcionalidad y la experiencia del usuario, utilizando las últimas tecnologías y las mejores prácticas de la industria para crear sitios web fluidos y receptivos que involucren a los visitantes y generen resultados. Ya sea una plataforma de comercio electrónico, un sitio de portafolio o un blog, estoy comprometido en ofrecer excelencia.",
+                "serviceP3": "En el corazón de mi servicio se encuentra el compromiso de convertir tus sueños digitales en realidad. Estoy aquí para transformar tus ideas en un sitio web visualmente impresionante y completamente funcional que no solo cumpla, sino que supere tus expectativas. Vamos a embarcarnos en este viaje colaborativo, donde tu visión se encuentra con mi experiencia técnica para crear una presencia web que realmente se destaque."
             },
             {
                 "number": "02",
                 "serviceH3": "Rediseño de Sitios Web",
                 "serviceP": "Mejorar y actualizar sitios web existentes para mejorar su apariencia y funcionalidad.",
-                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
-                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "img": "../img/service02.jpg",
+                "serviceP1": "Como un apasionado Desarrollador Web, mi experiencia se extiende al arte del Rediseño de Sitios Web. Me especializo en mejorar y modernizar sitios web existentes para elevar su atractivo visual y funcionalidad. Colaborando estrechamente con los clientes, insufo nueva vida a su presencia digital.",
+                "serviceP2": "Mi enfoque en el Rediseño de Sitios Web es una fusión de creatividad y destreza técnica. Analizo meticulosamente cada aspecto de su sitio web actual, identificando áreas de mejora e implementando actualizaciones de diseño y funcionalidad de vanguardia. ¿El resultado? Una plataforma en línea renovada que cautiva a su audiencia.",
+                "serviceP3": "Desbloquee el potencial de su presencia en línea con nuestro servicio de Rediseño de Sitios Web. Estoy comprometido a convertir su sitio web obsoleto en una obra maestra moderna. Trabajemos juntos para insuflar nueva vida a su marca digital, asegurándonos de que no solo luzca impresionante, sino que también funcione de manera impecable, ofreciendo una experiencia de usuario excepcional."
             },
             {
                 "number": "03",
                 "serviceH3": "Desarrollo de E-commerce",
                 "serviceP": "Crear tiendas en línea con funcionalidad de E-commerce, carritos de compras y pasarelas de pago.",
-                "img": "https://dummyimage.com/500x500/c448c4/0011ff",
-                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "img": "../img/service03.jpg",
+                "serviceP1": "Como Desarrollador de E-commerce, me especializo en la creación de tiendas en línea robustas equipadas con una funcionalidad de comercio electrónico fluida, carritos de compra fáciles de usar y pasarelas de pago seguras. Mi experiencia radica en ofrecer una experiencia de compra impecable, reconociendo que su emprendimiento de comercio electrónico no es solo un sitio web, sino su escaparate digital.",
+                "serviceP2": "Mi enfoque en el Desarrollo de Comercio Electrónico se centra en proporcionar una experiencia de compra sin fallas. Diseño y construyo minuciosamente tiendas en línea adaptadas a las necesidades específicas de su negocio, asegurando que sus clientes puedan navegar, seleccionar y comprar productos sin esfuerzo. Su éxito en el mundo del comercio electrónico es mi objetivo principal.",
+                "serviceP3": "Eleve su presencia minorista en línea con nuestros servicios de Desarrollo de Comercio Electrónico. Estoy dedicado a dar vida a su visión mediante la creación de una plataforma de comercio electrónico dinámica que no solo exhiba sus productos de manera hermosa, sino que también simplifique todo el proceso de compra. Trabajemos juntos para transformar su escaparate digital en un próspero mercado en línea."
             },
             {
                 "number": "04",
                 "serviceH3": "Mantenimiento y Soporte",
                 "serviceP": "Ofrecer servicios continuos de mantenimiento, actualizaciones y soporte técnico para sitios web.",
-                "img": "https://dummyimage.com/500x500/485fc2/0011ff",
-                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "img": "../img/service04.jpg",
+                "serviceP1": "Como proveedor dedicado de servicios de Mantenimiento y Soporte, comprendo la importancia de mantener en óptimas condiciones su presencia en línea. Ofrezco mantenimiento continuo para su sitio web, actualizaciones periódicas y un soporte técnico receptivo para garantizar que sus activos digitales se mantengan seguros, actualizados y funcionen en su mejor estado.",
+                "serviceP2": "Mi enfoque en el Mantenimiento y Soporte es proactivo y centrado en usted, el cliente. Adapto mis servicios para satisfacer sus necesidades específicas, ya sea corrigiendo errores, implementando parches de seguridad o mejorando la funcionalidad del sitio web. Soy su socio confiable para proteger y optimizar su inversión en línea.",
+                "serviceP3": "Confíe en mí para ser su único punto de contacto en el Mantenimiento y Soporte. Estoy aquí para brindarle tranquilidad, sabiendo que su sitio web está en manos capaces. Mi compromiso es proporcionar asistencia oportuna y eficiente, permitiéndole enfocarse en su negocio principal mientras yo me ocupo de los aspectos técnicos de mantener y mejorar su presencia digital."
             },
             {
                 "number": "05",
                 "serviceH3": "Consultoría de Experiencia de Usuario",
                 "serviceP": "Asesorar sobre cómo mejorar la usabilidad del sitio web y la experiencia general del usuario.",
-                "img": "https://dummyimage.com/500x500/4cc24a/0011ff",
-                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "img": "../img/service05.jpg",
+                "serviceP1": "Como Consultor de Experiencia de Usuario dedicado, mi misión es empoderarte con ideas y estrategias para mejorar la usabilidad de tu sitio web y ofrecer una experiencia de usuario excepcional. Analizo minuciosamente tu plataforma digital, ofreciendo consejos personalizados para optimizar la navegación, la funcionalidad y el diseño.",
+                "serviceP2": "Mi enfoque en la Consultoría de Experiencia de Usuario se basa en una profunda comprensión del comportamiento del usuario. Colaboro estrechamente contigo para identificar puntos problemáticos y oportunidades de mejora, asegurando que tu sitio web se vuelva más intuitivo, atractivo y mejor alineado con las necesidades de tu audiencia.",
+                "serviceP3": "Eleva tu presencia en línea con nuestros servicios de Consultoría de Experiencia de Usuario. Estoy comprometido en ayudarte a crear sitios web que no solo luzcan geniales, sino que también deleiten y comprometan a los usuarios. Trabajemos juntos para transformar tu plataforma digital en un centro centrado en el usuario que impulse la satisfacción y la fidelidad de tu audiencia."
             },
             {
                 "number": "06",
                 "serviceH3": "Desarrollo de Aplicaciones Web",
                 "serviceP": "Crear aplicaciones web personalizadas adaptadas a los requisitos del cliente para experiencias digitales continuas.",
-                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
-                "serviceP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "serviceP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "img": "../img/service06.jpg",
+                "serviceP1": "Como hábil Desarrollador de Aplicaciones Web, me especializo en la creación de aplicaciones web personalizadas diseñadas para satisfacer las necesidades únicas de cada cliente. Mi enfoque se centra en la creación de soluciones digitales altamente funcionales y centradas en el usuario que mejoran la experiencia en línea.",
+                "serviceP2": "Mi enfoque en el Desarrollo de Aplicaciones Web se basa en la innovación y la resolución de problemas. Colaboro estrechamente con los clientes para analizar sus necesidades y objetivos específicos, asegurándome de que cada aplicación web que creo sea una herramienta afinada diseñada para simplificar procesos, atraer a los usuarios y ofrecer resultados tangibles.",
+                "serviceP3": "Eleve su presencia en línea con nuestros servicios de Desarrollo de Aplicaciones Web. Ya sea que necesite una herramienta web robusta, una plataforma interactiva o una aplicación web dinámica, estoy aquí para transformar su visión en una solución funcional e intuitiva. Emprendamos este viaje juntos, creando aplicaciones web que potencien su negocio y cautiven a su audiencia."
             }
         ],
         "portfolio": [
             {
-                "tech": "1",
-                "h1": "TITULO 1",
-                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
-            },
-            {
-                "tech": "1",
-                "h1": "TITULO 2",
-                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
-            },
-            {
                 "tech": "2",
-                "h1": "TITULO 3",
-                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
-            },
-            {
-                "tech": "2",
-                "h1": "TITULO 4",
-                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "h1": "PORTFOLIO",
+                "portfolioP1": "Como desarrollador web, mi portafolio personal es una obra en constante evolución. Desarrollado con React y JavaScript, representa mi habilidad para crear interfaces atractivas y dinámicas. Además, Node.js fortalece la integración, asegurando una experiencia de usuario fluida y un rendimiento sólido.",
+                "portfolioP2": "Una parte esencial de mi portafolio es mi proyecto de blog personal. Aquí, aplico mis conocimientos en desarrollo web para compartir contenido relevante. La implementación de React y JavaScript garantiza una navegación intuitiva. Node.js respalda la gestión eficiente de datos y la interacción del usuario.",
+                "portfolioP3": "Mi portafolio personal como desarrollador web es un proyecto en constante evolución. Representa mi capacidad para crear experiencias digitales atractivas y dinámicas. La integración de tecnologías modernas garantiza un rendimiento sólido y una experiencia de usuario fluida. Este portafolio refleja mi dedicación a la excelencia en el desarrollo web y mi pasión por la innovación tecnológica."
             },
             {
                 "tech": "3",
-                "h1": "TITULO 5",
-                "portfolioP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "portfolioP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "h1": "UKULELE",
+                "portfolioP1": "Mi primer proyecto web marca un hito significativo en mi trayectoria como desarrollador. Este sitio web, dedicado al ukulele y mis artistas favoritos, fue un momento crucial en mis primeros pasos en la programación. Fue creado solo con HTML y CSS, mostrando mis primeros avances en desarrollo web.",
+                "portfolioP2": "Al adentrarme en el diseño web, este proyecto me permitió combinar mi pasión por el ukulele con mis nuevas habilidades en programación. La simplicidad de HTML y CSS me permitió plasmar mi visión creativa, ofreciendo a los visitantes una ventana a mi mundo musical.",
+                "portfolioP3": "Aunque esta página web es básica en diseño y tecnología, tiene un valor sentimental para mí. Es un recordatorio de mis humildes inicios y enciende mi entusiasmo tanto por el desarrollo web como por la música. Es un testimonio de cuánto he avanzado desde aquellos primeros días, mientras siempre atesoro mis raíces como desarrollador web y amante del ukulele."
+            },
+            {
+                "tech": "1",
+                "h1": "QUIZ",
+                "portfolioP1": "Mi proyecto de Quiz de selección de casa de Harry Potter fue una emocionante inmersión en el mundo del desarrollo web. A través de este proyecto, pude aplicar habilidades avanzadas de JavaScript para crear un Quiz interactivo y envolvente. Los usuarios tienen la oportunidad de responder una serie de preguntas basadas en el universo de Harry Potter y, al final, descubrir a qué casa de Hogwarts pertenecen.",
+                "portfolioP2": "Este proyecto destacó por su capacidad para ofrecer a los usuarios una experiencia inmersiva y entretenida mientras navegaban por un cuestionario cuidadosamente diseñado. La selección de las preguntas y el diseño de las respuestas se realizaron meticulosamente para garantizar una experiencia auténtica y atractiva para los fans de Harry Potter.",
+                "portfolioP3": "A través de este proyecto, consolidé mi comprensión de la lógica de JavaScript y el uso del DOM, mientras continuaba explorando el emocionante mundo del desarrollo web. Esta experiencia me inspiró a seguir creando aplicaciones web interactivas y atractivas que cautiven a los usuarios y les brinden momentos de diversión y entretenimiento."
+            },
+            {
+                "tech": "2",
+                "h1": "FAKE IKEA",
+                "portfolioP1": "Mi proyecto de clon de la página de IKEA fue una emocionante experiencia de desarrollo web utilizando React. Esta aplicación interactiva se asemeja a la famosa tienda de muebles, brindando a los usuarios una experiencia de compra en línea completa. La funcionalidad del carrito de compras permite a los usuarios seleccionar productos y gestionar su compra de manera eficiente.",
+                "portfolioP2": "Una característica destacada de la aplicación es la implementación del checkout y la generación automática de números de orden. Los usuarios pueden finalizar sus compras con facilidad, y cada orden se guarda en una base de datos de Google Firebase, lo que permite un seguimiento preciso de las transacciones y un acceso sencillo a los detalles de la compra.",
+                "portfolioP3": "Además de las funciones de compra, la aplicación también ofrece una amplia gama de categorías de productos, lo que facilita a los usuarios encontrar exactamente lo que están buscando. Este proyecto me desafió a aplicar mis conocimientos en desarrollo web de manera práctica y a crear una experiencia de usuario completa y envolvente. Fue una valiosa lección en la creación de aplicaciones web interactivas y funcionales."
+            },
+            {
+                "tech": "1",
+                "h1": "LABERINTO",
+                "portfolioP1": "Mi proyecto de laberinto representa un paso importante en mi desarrollo como programador. Este desafiante proyecto fue diseñado para aplicar conceptos clave de JavaScript y mejorar mis habilidades en eventos del mouse. El objetivo del juego es simple: navegar a través del laberinto y llegar a un punto específico.",
+                "portfolioP2": "El proyecto presenta tres niveles de dificultad que el usuario puede elegir, lo que agrega un componente de elección y desafío al juego. Cada nivel ofrece un diseño único de laberinto, lo que me permitió practicar la creación de estructuras de datos y algoritmos para generar laberintos aleatorios.",
+                "portfolioP3": "A través de la implementación de eventos de JavaScript, el proyecto de laberinto me brindó una valiosa experiencia en la manipulación dinámica de elementos HTML. Además, me ayudó a consolidar mis conocimientos en desarrollo web y a cultivar mi pasión por la programación mediante la creación de experiencias interactivas y entretenidas. Este proyecto marcó un hito importante en mi aprendizaje y me motivó a seguir explorando nuevas tecnologías y desafíos en el desarrollo web."
             }
         ],
         "servicesH32": "Rediseño de Sitios Web",
@@ -353,44 +353,42 @@
         "portfolioH1": "Mi Portafolio",
         "portfolioAll": "Todos",
         "portfolioOthers": "Otros",
-
-
         "newsTittle": "Noticias",
         "newsH1": "Ultimas Noticias",
         "newsBy": "por",
         "news": [
             {
-                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
+                "img": "../img/desarrolloWeb.png",
                 "newsDate": "April 07 2022",
-                "newsH2": "Craft bespoke web apps tailored to unique client",
-                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsH2": "Empezando el Camino: Mi Carrera como Desarrollador Web Comienza Aquí.",
+                "newsP": "Iniciando mi Carrera como Desarrollador Web.",
                 "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
             },
             {
-                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
+                "img": "../img/javascript.png",
                 "newsDate": "April 07 2022",
-                "newsH2": "Craft bespoke web apps tailored to unique client",
-                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsH2": "Dominando el Lenguaje de la Web: Celebrando el Fin de mi Curso de JavaScript.",
+                "newsP": "JavaScript: Un Camino hacia el Éxito y la Culminación.",
                 "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
             },
             {
-                "img": "https://dummyimage.com/500x500/c448c4/0011ff",
+                "img": "../img/reactJS.png",
                 "newsDate": "April 07 2022",
-                "newsH2": "Craft bespoke web apps tailored to unique client",
-                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsH2": "Del Aprendizaje al Dominio: Un Paso Más Cerca del Maestro en React.",
+                "newsP": "Un Paso Más Cerca del Maestro en React.",
                 "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
             },
             {
-                "img": "https://dummyimage.com/500x500/485fc2/0011ff",
+                "img": "../img/desarrolladorFrontEnd.png",
                 "newsDate": "April 07 2022",
-                "newsH2": "Craft bespoke web apps tailored to unique client",
-                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsH2": "Graduación y Nuevos Comienzos: Culminando mi Carrera de Desarrollo Front-End.",
+                "newsP": "Carrera Front-End: ¡Graduación y Nuevos Horizontes!.",
                 "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."

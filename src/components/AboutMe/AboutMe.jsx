@@ -1,5 +1,4 @@
 import './AboutMe.css'
-import profile from '../../img/profile.jpeg'
 import CertfModal from '../CertfModal/CertfModal'
 import { useState, useEffect } from 'react'
 
@@ -33,7 +32,7 @@ const AboutMe = ({ language, translations }) => {
           <div className='markTittle'>{translations[language].aboutTittle}</div>
           <h1>{translations[language].aboutH1}</h1>
           <div className='profilePic'>
-            <img src={profile} alt="Profile Pic" />
+            <img src="/public/img/profile.jpeg" alt="Profile Pic" />
           </div>
         </div>
         <div className='aboutWidth'>

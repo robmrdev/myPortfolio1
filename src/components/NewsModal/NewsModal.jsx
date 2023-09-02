@@ -16,7 +16,7 @@ const NewsModal = ({ isOpen, onClose, newsSelector, language, translations }) =>
     const selectedService = newsPool[newsSelector]
 
     return (
-        <div className='modalContainer' onClick={onClose}>
+        <div className='modalContainer slideIn' onClick={onClose}>
             <div className='serviceWrapper'>
                 <div className='closeService'>
                     <i className='fa-solid fa-x'></i>

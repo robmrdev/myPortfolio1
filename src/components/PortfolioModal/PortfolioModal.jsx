@@ -2,20 +2,9 @@ import "./PortfolioModal.css"
 import { useState } from "react";
 import portfolioData from "../../data/data.json"
 
-const portfolioPool = {
-    1: "certf1",
-    2: "certf2",
-    3: "certf3",
-    4: "certf1",
-    5: "certf2",
-    6: "certf3"
-}
 
-
-
-const PortfolioModal = ({ isOpen, onClose, portfolioSelector, language, translations }) => {
+const PortfolioModal = ({ isOpen, onClose, portfolioSelector, language, translations, filteredModal, filteredPortfolio }) => {
     if (!isOpen) return null;
-
     const selectedPortfolio = portfolioData.portfolio[portfolioSelector]
     
 
@@ -29,23 +18,23 @@ const PortfolioModal = ({ isOpen, onClose, portfolioSelector, language, translat
         setIsHovered(false);
     };
     return (
-        <div className='modalContainer' onClick={onClose}>
+        <div className='modalContainer slideIn' onClick={onClose}>
             <div className='serviceWrapper'>
                 <div className='closeService'>
                     <i className='fa-solid fa-x'></i>
                 </div>
                 <div className='modal modalService' onClick={(e) => e.stopPropagation()}>
                     <div className="portfolioGalery">
-                        <img src={selectedPortfolio.img1} alt="" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave} />
-                        <img src={selectedPortfolio.img2} alt="" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave} />
-                        <img src={selectedPortfolio.img3} alt="" className={isHovered ? '' : 'portfolioGaleryMiddle'} />
-                        <img src={selectedPortfolio.img4} alt="" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave} />
-                        <img src={selectedPortfolio.img5} alt="" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave} />
+                        <img src={filteredPortfolio[portfolioSelector].img3} alt="" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave} />
+                        <img src={filteredPortfolio[portfolioSelector].img2} alt="" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave} />
+                        <img src={filteredPortfolio[portfolioSelector].img1} alt="" className={isHovered ? '' : 'portfolioGaleryMiddle'} />
+                        <img src={filteredPortfolio[portfolioSelector].img4} alt="" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave} />
+                        <img src={filteredPortfolio[portfolioSelector].img5} alt="" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave} />
                     </div>
                     <div className="portfolioModalHead">
-                        <h2>{translations[language].portfolio[portfolioSelector].h1}</h2>
-                        <div className="techContainer">{ }
-                            {selectedPortfolio.techLogos.map((item, index) => (
+                        <h2>{filteredModal[portfolioSelector].h1}</h2>
+                        <div className="techContainer">
+                            {filteredPortfolio[portfolioSelector].techLogos.map((item, index) => (
                                 <div key={index}>
                                     <div className={item.name.toLowerCase()}>
                                         <i className={item.class}></i>
@@ -56,9 +45,9 @@ const PortfolioModal = ({ isOpen, onClose, portfolioSelector, language, translat
                         </div>
                     </div>
                     <article>
-                        <p>{translations[language].portfolio[portfolioSelector].portfolioP1}</p>
-                        <p>{translations[language].portfolio[portfolioSelector].portfolioP2}</p>
-                        <p>{translations[language].portfolio[portfolioSelector].portfolioP3}</p>
+                        <p>{filteredModal[portfolioSelector].portfolioP1}</p>
+                        <p>{filteredModal[portfolioSelector].portfolioP2}</p>
+                        <p>{filteredModal[portfolioSelector].portfolioP3}</p>
                     </article>
                     <div className='shareDiv'>
                         <strong>{translations[language].share} </strong>
