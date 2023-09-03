@@ -28,7 +28,8 @@
                     "name": "React",
                     "class": "fa-brands fa-react"
                 }
-            ]
+            ],
+            "site":"https://robertmendoza.netlify.app/"
         },
         {
             "img1": "../img/uku2.jpg",
@@ -46,7 +47,8 @@
                     "name": "CSS",
                     "class": "fa-brands fa-css3-alt"
                 }
-            ]
+            ],
+            "site":"https://ukuandcoffee.netlify.app/"
         },
         {
             "img1": "../img/quiz2.jpg",
@@ -68,7 +70,8 @@
                     "name": "JS",
                     "class": "fa-brands fa-js"
                 }
-            ]
+            ],
+            "site":"https://robmrivas.github.io/Jscoderexercises/"
         },
         {
             "img1": "../img/fakeIkea2.jpg",
@@ -98,7 +101,8 @@
                     "name": "React",
                     "class": "fa-brands fa-react"
                 }
-            ]
+            ],
+            "site":"https://fakeikea.netlify.app/"
         },
         {
             "img1": "../img/maze5.jpg",
@@ -120,7 +124,8 @@
                     "name": "JS",
                     "class": "fa-brands fa-js"
                 }
-            ]
+            ],
+            "site":"https://robmrivas.github.io/maze/"
         }
     ],
     "news": [

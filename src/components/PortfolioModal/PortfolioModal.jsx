@@ -6,7 +6,7 @@ import portfolioData from "../../data/data.json"
 const PortfolioModal = ({ isOpen, onClose, portfolioSelector, language, translations, filteredModal, filteredPortfolio }) => {
     if (!isOpen) return null;
     const selectedPortfolio = portfolioData.portfolio[portfolioSelector]
-    
+
 
     const [isHovered, setIsHovered] = useState(false);
 
@@ -39,7 +39,7 @@ const PortfolioModal = ({ isOpen, onClose, portfolioSelector, language, translat
                                     <div className={item.name.toLowerCase()}>
                                         <i className={item.class}></i>
                                     </div>
-                                        <p>{item.name}</p>
+                                    <p>{item.name}</p>
                                 </div>
                             ))}
                         </div>
@@ -49,18 +49,23 @@ const PortfolioModal = ({ isOpen, onClose, portfolioSelector, language, translat
                         <p>{filteredModal[portfolioSelector].portfolioP2}</p>
                         <p>{filteredModal[portfolioSelector].portfolioP3}</p>
                     </article>
-                    <div className='shareDiv'>
-                        <strong>{translations[language].share} </strong>
-                        <div className='facebookColor'>
-                            <i className="fa-brands fa-facebook-f"></i>
+                    <div className="portfolioBottom">
+                        <div className='shareDiv'>
+                            <strong>{translations[language].share} </strong>
+                            <div className='facebookColor'>
+                                <i className="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div className='xColor'>
+                                <i className="fa-brands fa-x-twitter"></i>
+                            </div>
+                            <div className='linkedinColor'>
+                                <i className="fa-brands fa-linkedin-in"></i>
+                            </div>
+                            <i></i>
                         </div>
-                        <div className='xColor'>
-                            <i className="fa-brands fa-x-twitter"></i>
-                        </div>
-                        <div className='linkedinColor'>
-                            <i className="fa-brands fa-linkedin-in"></i>
-                        </div>
-                        <i></i>
+                        <span>
+                                <a href={filteredPortfolio[portfolioSelector].site} target="_blank">Go to site</a>
+                        </span>
                     </div>
                 </div>
 

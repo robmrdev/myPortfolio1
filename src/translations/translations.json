@@ -141,19 +141,10 @@
         "newsBy": "by",
         "news": [
             {
-                "img": "../img/desarrolloWeb.png",
+                "img": "../img/desarrolladorFrontEnd.png",
                 "newsDate": "April 07 2022",
-                "newsH2": "Starting the Journey: My Career as a Web Developer Begins Here.",
-                "newsP": "Starting My Career as a Web Developer.",
-                "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
-            },
-            {
-                "img": "../img/javascript.png",
-                "newsDate": "April 07 2022",
-                "newsH2": "Mastering the Language of the Web: Celebrating the Completion of My JavaScript Course.",
-                "newsP": "JavaScript: A Path to Success and Culmination.",
+                "newsH2": "Graduation and New Beginnings: Culminating My Front-End Development Career.",
+                "newsP": "Front-End Career: Graduation and New Horizons!.",
                 "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
@@ -168,31 +159,22 @@
                 "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
             },
             {
-                "img": "../img/desarrolladorFrontEnd.png",
+                "img": "../img/javascript.png",
                 "newsDate": "April 07 2022",
-                "newsH2": "Graduation and New Beginnings: Culminating My Front-End Development Career.",
-                "newsP": "Front-End Career: Graduation and New Horizons!.",
+                "newsH2": "Mastering the Language of the Web: Celebrating the Completion of My JavaScript Course.",
+                "newsP": "JavaScript: A Path to Success and Culmination.",
                 "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
             },
             {
-                "img": "https://dummyimage.com/500x500/4cc24a/0011ff",
+                "img": "../img/desarrolloWeb.png",
                 "newsDate": "April 07 2022",
-                "newsH2": "Craft bespoke web apps tailored to unique client",
-                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsH2": "Starting the Journey: My Career as a Web Developer Begins Here.",
+                "newsP": "Starting My Career as a Web Developer.",
                 "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "newsP13": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
-            },
-            {
-                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
-                "newsDate": "April 07 2022",
-                "newsH2": "Craft bespoke web apps tailored to unique client",
-                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-                "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "newsP13": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
             }
         ],
         "contactTittle": "Contact",
@@ -358,19 +340,10 @@
         "newsBy": "por",
         "news": [
             {
-                "img": "../img/desarrolloWeb.png",
+                "img": "../img/desarrolladorFrontEnd.png",
                 "newsDate": "April 07 2022",
-                "newsH2": "Empezando el Camino: Mi Carrera como Desarrollador Web Comienza Aquí.",
-                "newsP": "Iniciando mi Carrera como Desarrollador Web.",
-                "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
-            },
-            {
-                "img": "../img/javascript.png",
-                "newsDate": "April 07 2022",
-                "newsH2": "Dominando el Lenguaje de la Web: Celebrando el Fin de mi Curso de JavaScript.",
-                "newsP": "JavaScript: Un Camino hacia el Éxito y la Culminación.",
+                "newsH2": "Graduación y Nuevos Comienzos: Culminando mi Carrera de Desarrollo Front-End.",
+                "newsP": "Carrera Front-End: ¡Graduación y Nuevos Horizontes!.",
                 "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
@@ -385,31 +358,22 @@
                 "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
             },
             {
-                "img": "../img/desarrolladorFrontEnd.png",
+                "img": "../img/javascript.png",
                 "newsDate": "April 07 2022",
-                "newsH2": "Graduación y Nuevos Comienzos: Culminando mi Carrera de Desarrollo Front-End.",
-                "newsP": "Carrera Front-End: ¡Graduación y Nuevos Horizontes!.",
+                "newsH2": "Dominando el Lenguaje de la Web: Celebrando el Fin de mi Curso de JavaScript.",
+                "newsP": "JavaScript: Un Camino hacia el Éxito y la Culminación.",
                 "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
             },
             {
-                "img": "https://dummyimage.com/500x500/4cc24a/0011ff",
+                "img": "../img/desarrolloWeb.png",
                 "newsDate": "April 07 2022",
-                "newsH2": "Craft bespoke web apps tailored to unique client",
-                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                "newsH2": "Empezando el Camino: Mi Carrera como Desarrollador Web Comienza Aquí.",
+                "newsP": "Iniciando mi Carrera como Desarrollador Web.",
                 "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
                 "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "newsP13": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
-            },
-            {
-                "img": "https://dummyimage.com/500x500/c5cf3a/0011ff",
-                "newsDate": "April 07 2022",
-                "newsH2": "Craft bespoke web apps tailored to unique client",
-                "newsP": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-                "newsP1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "newsP2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.",
-                "newsP13": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
+                "newsP3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem alias iusto quae nobis omnis amet natus adipisci, accusamus impedit."
             }
         ],
         "contactTittle": "Contacto",
