@@ -28,22 +28,24 @@ function App() {
   const toggleMenu = () => {
     setMenuAbierto(!menuAbierto);
   };
-
+  const closeSideBar = () => {
+    setMenuAbierto(false)
+  }
   return (
     <>
       <BrowserRouter>
-        <SideBar isOpen={menuAbierto} language={language} translations={translations}/> 
+        <SideBar isOpen={menuAbierto} language={language} translations={translations} toggleMenu={toggleMenu}/> 
         <main>
         <LanguageButton currentLanguage={language} onChangeLanguage={handleChangeLanguage} />
           <BlackAndWhiteButton />
           <TopBar  toggleMenu={toggleMenu} menuAbierto={menuAbierto} />
           <Routes>
-            <Route path='/' element={<MainPage language={language} translations={translations}/>} />
-            <Route path='/aboutme' element={<AboutMe language={language} translations={translations} />} />
-            <Route path='/whatido' element={<WhatIDo language={language} translations={translations} />} />
-            <Route path='/portfolio' element={<Portfolio language={language} translations={translations} />} />
-            <Route path='/news' element={<News language={language} translations={translations} />} />
-            <Route path='/contact' element={<Contact language={language} translations={translations} />} />
+            <Route path='/' element={<MainPage language={language} translations={translations} closeSideBar={closeSideBar}/>} />
+            <Route path='/aboutme' element={<AboutMe language={language} translations={translations} closeSideBar={closeSideBar}/>} />
+            <Route path='/whatido' element={<WhatIDo language={language} translations={translations} closeSideBar={closeSideBar}/>} />
+            <Route path='/portfolio' element={<Portfolio language={language} translations={translations} closeSideBar={closeSideBar}/>} />
+            <Route path='/news' element={<News language={language} translations={translations} closeSideBar={closeSideBar}/>} />
+            <Route path='/contact' element={<Contact language={language} translations={translations} closeSideBar={closeSideBar}/>} />
           </Routes>
         </main>
       </BrowserRouter>

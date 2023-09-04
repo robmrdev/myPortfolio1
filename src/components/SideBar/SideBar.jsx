@@ -1,20 +1,21 @@
 import "./SideBar.css"
 import { NavLink, Link } from "react-router-dom"
 
-const SideBar = ({isOpen, language, translations}) => {
+const SideBar = ({isOpen, language, translations, toggleMenu}) => {
+  
   
   return (
     <nav className={isOpen ? 'visible' : ''}>
-        <Link to="/">
+        <Link to="/" onClick={toggleMenu}>
         <h2>ROBERT M</h2>
         </Link>
         <ul>
-            <li><NavLink to="/"><i className="fa-solid fa-house"></i> {translations[language].sideHome} </NavLink></li>
-            <li><NavLink to="/aboutme"><i className="fa-solid fa-user"></i> {translations[language].aboutTittle} </NavLink></li>
-            <li><NavLink to="/whatido"><i className="fa-solid fa-gear"></i> {translations[language].servicesTittle} </NavLink></li>
-            <li><NavLink to="/portfolio"><i className="fi fi-rr-briefcase"></i> {translations[language].portfolioTittle} </NavLink></li>
-            <li><NavLink to="/news"><i className="fa-regular fa-newspaper"></i> {translations[language].newsTittle} </NavLink></li>
-            <li><NavLink to='/contact'><i className="fa-regular fa-envelope"></i> {translations[language].contactTittle} </NavLink></li>
+            <li><NavLink to="/" onClick={toggleMenu}><i className="fa-solid fa-house"></i> {translations[language].sideHome} </NavLink></li>
+            <li><NavLink to="/aboutme" onClick={toggleMenu}><i className="fa-solid fa-user"></i> {translations[language].aboutTittle} </NavLink></li>
+            <li><NavLink to="/whatido" onClick={toggleMenu}><i className="fa-solid fa-gear"></i> {translations[language].servicesTittle} </NavLink></li>
+            <li><NavLink to="/portfolio" onClick={toggleMenu}><i className="fi fi-rr-briefcase"></i> {translations[language].portfolioTittle} </NavLink></li>
+            <li><NavLink to="/news" onClick={toggleMenu}><i className="fa-regular fa-newspaper"></i> {translations[language].newsTittle} </NavLink></li>
+            <li><NavLink to='/contact' onClick={toggleMenu}><i className="fa-regular fa-envelope"></i> {translations[language].contactTittle} </NavLink></li>
         </ul>
         <p>
             © 2023 Robert Mendoza

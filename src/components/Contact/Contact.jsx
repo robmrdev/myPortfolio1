@@ -1,12 +1,12 @@
 import './Contact.css'
 import { useEffect } from 'react';
 
-const Contact = ({ language, translations}) => {
+const Contact = ({ language, translations, closeSideBar}) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <section className='aboutWidth slideIn contactContainer'>
+    <section className='aboutWidth slideIn contactContainer' onClick={closeSideBar}>
       <div className='markTittleContainer'>
           <div className='markTittle'> {translations[language].contactTittle} </div>
           <h1> {translations[language].contactH1} </h1>

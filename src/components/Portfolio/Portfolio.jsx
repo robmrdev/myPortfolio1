@@ -5,7 +5,7 @@ import PortfolioModal from '../PortfolioModal/PortfolioModal';
 import portfolioData from "../../data/data.json"
 
 
-const Portfolio = ({ language, translations }) => {
+const Portfolio = ({ language, translations, closeSideBar }) => {
 
   const [selectedCategory, setSelectedCategory] = useState('All');
 
@@ -19,7 +19,6 @@ const Portfolio = ({ language, translations }) => {
   const openModal = (currentPortfolio) => {
     setCurrentPortfolio(currentPortfolio);
     setIsModalOpen(true);
-    console.log(filteredModal)
   };
 
   const closeModal = () => {
@@ -43,7 +42,7 @@ const Portfolio = ({ language, translations }) => {
   return (
     <>
       <PortfolioModal language={language} translations={translations} isOpen={isModalOpen} onClose={closeModal} portfolioSelector={currentPortfolio} filteredPortfolio= {filteredPortfolio} filteredModal={filteredModal}/>
-      <span className='aboutWidth portfolioContainer slideIn'>
+      <span className='aboutWidth portfolioContainer slideIn' onClick={closeSideBar}>
         <div className='topWrapper'>
           <div className='markTittleContainer'>
             <div className='markTittle'> {translations[language].portfolioTittle} </div>

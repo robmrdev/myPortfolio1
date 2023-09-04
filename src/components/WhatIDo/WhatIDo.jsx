@@ -2,7 +2,7 @@ import "./WhatIDo.css"
 import { useEffect, useState } from "react";
 import ServiceModal from "../ServiceModal/ServiceModal";
 
-const WhatIDo = ({ language, translations }) => {
+const WhatIDo = ({ language, translations,closeSideBar }) => {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentService, setCurrentService] = useState(1);
@@ -27,7 +27,7 @@ const WhatIDo = ({ language, translations }) => {
   return (
     <>
       <ServiceModal language={language} translations={translations} isOpen={isModalOpen} onClose={closeModal} serviceSelector={currentService} />
-      <div className="slideIn">
+      <div className="slideIn" onClick={closeSideBar}>
         <span className="aboutWidth whatIDoContainer">
           <div className='markTittleContainer'>
             <div className='markTittle'> {translations[language].servicesTittle} </div>

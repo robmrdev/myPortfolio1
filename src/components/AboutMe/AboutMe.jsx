@@ -2,7 +2,7 @@ import './AboutMe.css'
 import CertfModal from '../CertfModal/CertfModal'
 import { useState, useEffect } from 'react'
 
-const AboutMe = ({ language, translations }) => {
+const AboutMe = ({ language, translations, closeSideBar }) => {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentCertf, setCurrentCertf] = useState(1);
@@ -26,7 +26,7 @@ const AboutMe = ({ language, translations }) => {
   return (
     <>
     <CertfModal  isOpen={isModalOpen} onClose={closeModal} imageSelector={currentCertf}/>
-    <div className='slideIn'>
+    <div className='slideIn' onClick={closeSideBar}>
       <section className='personalInfo'>
         <div className='markTittleContainer'>
           <div className='markTittle'>{translations[language].aboutTittle}</div>
@@ -58,7 +58,7 @@ const AboutMe = ({ language, translations }) => {
             </li>
             <li className='aboutInfoLi'>
               <strong>Email: </strong>
-              <span> <a href="mailto:robmrivas@gmail.com"> robmrivas@gmail.com</a></span>
+              <span> <a href="mailto:robmr.dev@gmail.com"> robmr.dev@gmail.com</a></span>
             </li>
           </ul>
           <ul className='right'>

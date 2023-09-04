@@ -1,11 +1,11 @@
 import './MainPage.css'
 import Typer from '../Typer/Typer'
 
-const MainPage = ({ language, translations}) => {
+const MainPage = ({ language, translations, closeSideBar}) => {
 
   const wordsToType = translations[language].wordsToType;
   return (
-    <div className='mainPageContainer slideIn'>
+    <div className='mainPageContainer slideIn' onClick={closeSideBar}>
         <div className='mainleft'>
           <div></div>
         </div>

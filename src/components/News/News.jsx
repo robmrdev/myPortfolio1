@@ -2,7 +2,7 @@ import './News.css'
 import { useEffect, useState } from 'react';
 import NewsModal from '../NewsModal/NewsModal';
 
-const News = ({ language, translations }) => {
+const News = ({ language, translations, closeSideBar }) => {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentNews, setCurrentNews] = useState(1);
@@ -28,7 +28,7 @@ const News = ({ language, translations }) => {
   return (
     <>
       <NewsModal language={language} translations={translations} isOpen={isModalOpen} onClose={closeModal} newsSelector={currentNews} />
-      <section className='aboutWidth portfolioContainer slideIn'>
+      <section className='aboutWidth portfolioContainer slideIn' onClick={closeSideBar}>
         <div className='markTittleContainer'>
           <div className='markTittle'> {translations[language].newsTittle} </div>
           <h1> {translations[language].newsH1} </h1>
