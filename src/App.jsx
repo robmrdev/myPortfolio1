@@ -37,7 +37,7 @@ function App() {
         <SideBar isOpen={menuAbierto} language={language} translations={translations} toggleMenu={toggleMenu}/> 
         <main>
         <LanguageButton currentLanguage={language} onChangeLanguage={handleChangeLanguage} />
-          <BlackAndWhiteButton />
+          {/* <BlackAndWhiteButton /> */}
           <TopBar  toggleMenu={toggleMenu} menuAbierto={menuAbierto} />
           <Routes>
             <Route path='/' element={<MainPage language={language} translations={translations} closeSideBar={closeSideBar}/>} />

@@ -53,3 +53,15 @@
 .map{
     margin-bottom: 40px;
 }
+
+
+.contactForm h3 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: rgb(172, 1, 1);
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+.contactForm h3 a {
+    font-size: 1.2rem;
+}

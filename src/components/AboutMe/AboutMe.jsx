@@ -81,7 +81,7 @@ const AboutMe = ({ language, translations, closeSideBar }) => {
           </ul>
         </div>
         <div className='aboutButton'>
-          <a href="#">
+          <a href="../Document.pdf" target='_blank'>
             <span>{translations[language].aboutDownload}</span>
           </a>
         </div>

@@ -184,6 +184,7 @@
         "contactSend": "Send Message",
         "sideHome": "Home",
         "share": "Share:",
+        "notWorks":"Por Ahora no funciona, escribir a: ",
         "portlofioPool": [
             {}
         ]
@@ -382,6 +383,7 @@
         "contactMsj": "Mensaje",
         "contactSend": "Enviar Mensaje",
         "sideHome": "Inicio",
-        "share": "Compartir:"
+        "share": "Compartir:",
+        "notWorks":"Por Ahora no funciona, escribir a: "
     }
 }
