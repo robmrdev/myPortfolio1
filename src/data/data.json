@@ -1,6 +1,37 @@
 {
     "portfolio": [
         {
+            "img1": "../img/treeStore1.jpg",
+            "img2": "../img/treeStore2.jpg",
+            "img3": "../img/treeStore3.jpg",
+            "img4": "../img/treeStore4.jpg",
+            "img5": "../img/treeStore5.jpg",
+            "tech": "2",
+            "techLogos": [
+                {
+                    "name": "HTML",
+                    "class": "fa-brands fa-html5"
+                },
+                {
+                    "name": "CSS",
+                    "class": "fa-brands fa-css3-alt"
+                },
+                {
+                    "name": "JS",
+                    "class": "fa-brands fa-js"
+                },
+                {
+                    "name": "NodeJS",
+                    "class": "fa-brands fa-node-js"
+                },
+                {
+                    "name": "React",
+                    "class": "fa-brands fa-react"
+                }
+            ],
+            "site":"https://treestore.netlify.app/"
+        },
+        {
             "img1": "../img/portfolio1.jpg",
             "img2": "../img/portfolio2.jpg",
             "img3": "../img/portfolio3.jpg",

@@ -98,6 +98,13 @@
         "portfolio": [
             {
                 "tech": "2",
+                "h1": "TREESTORE",
+                "portfolioP1": "This is mi last Project, it's an early concept proof but It's show what I'm capable of and how I can evolve with every new jobs! I'm very happy to show this one",
+                "portfolioP2": "Right now you can register, login, set a cart with items you want and deleted from the cart. but On this moment you can't add them without login. I'm working on it!",
+                "portfolioP3": "The Front End site it's my strongest skill so far, so I keep a look on the small details! even if there is a couple o list an details on the site without the proper Styling yet, remember is a WORK IN PROGRESS. so far only can be seen on PC. IT'S NOT RESPONSIVE YET"
+            },
+            {
+                "tech": "2",
                 "h1": "PORTFOLIO",
                 "portfolioP1": "As a web developer, my personal portfolio is a work in constant evolution. Developed with React and JavaScript, it showcases my ability to create attractive and dynamic interfaces. Furthermore, Node.js strengthens the integration, ensuring a smooth user experience and solid performance.",
                 "portfolioP2": "An essential part of my portfolio is my personal blog project. Here, I apply my web development knowledge to share relevant content. The implementation of React and JavaScript ensures intuitive navigation, while Node.js supports efficient data management and user interaction.",
@@ -286,6 +293,13 @@
             }
         ],
         "portfolio": [
+            {
+                "tech": "2",
+                "h1": "TREESTORE",
+                "portfolioP1": "Este es mi último proyecto, es una prueba de concepto temprana, pero muestra lo que soy capaz de hacer y cómo puedo evolucionar con cada nuevo trabajo. Estoy muy feliz de mostrar este proyecto en particular.",
+                "portfolioP2": "En este momento puedes registrarte, iniciar sesión, agregar productos a un carrito y eliminarlos del carrito. Pero en este momento no puedes agregar productos sin iniciar sesión. ¡Estoy trabajando en ello!",
+                "portfolioP3": "El desarrollo de Front-End es mi habilidad más fuerte hasta ahora, así que presto atención a los pequeños detalles. Incluso si hay un par de listas y detalles en el sitio sin el estilo adecuado todavía, recuerda que es un TRABAJO EN PROGRESO. Hasta ahora solo se puede ver en PC. NO ES RESPONSIVE todavía."
+            },
             {
                 "tech": "2",
                 "h1": "PORTFOLIO",
