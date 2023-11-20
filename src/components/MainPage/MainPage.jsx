@@ -14,8 +14,8 @@ const MainPage = ({ language, translations, closeSideBar}) => {
           <Typer wordsToType= {wordsToType} />
           <p>{translations[language].mainP}</p>
           <div>
-            <i className="fa-brands fa-github"></i>
-            <i className="fa-brands fa-linkedin"></i>
+            <a href="https://github.com/robmrdev" target="_blank"><i className="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ramr-dev/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>            
           </div>
       </div>
     </div>
