@@ -39,7 +39,7 @@ const AboutMe = ({ language, translations, closeSideBar }) => {
           <h2>Robert Mendoza</h2>
           <h4 className='bottomLine'>{translations[language].aboutRole}</h4>
           <p>{translations[language].aboutDescription1}</p>
-          <p className='bottomLine'>{translations[language].aboutDescription1}</p>
+          <p className='bottomLine'>{translations[language].aboutDescription2}</p>
         </div>
         <div className='aboutFlex bottomLine'>
           <ul className='left'>

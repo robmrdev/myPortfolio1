@@ -7,7 +7,7 @@ const SideBar = ({isOpen, language, translations, toggleMenu}) => {
   return (
     <nav className={isOpen ? 'visible' : ''}>
         <Link to="/" onClick={toggleMenu}>
-        <h2>ROBERT M</h2>
+          <img src="/logoMedium.png" alt="" className="mediumLogoSide" />
         </Link>
         <ul>
             <li><NavLink to="/" onClick={toggleMenu}><i className="fa-solid fa-house"></i> {translations[language].sideHome} </NavLink></li>

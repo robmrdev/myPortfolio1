@@ -52,6 +52,10 @@ nav h2 {
     color: white;
     font-size: 30px;
 }
+nav .mediumLogoSide{
+    width: 100%;
+    filter: brightness(0) invert(1);
+}
 
 .visible{
     visibility: visible;
