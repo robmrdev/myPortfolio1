@@ -3,7 +3,7 @@ nav{
     left: 0;
     top: 0;
     height: 100vh;
-    width: 450px;
+    width: 450px!important;
     padding: 0 100px;
     display: flex;
     flex-direction: column;
@@ -53,7 +53,7 @@ nav h2 {
     font-size: 30px;
 }
 nav .mediumLogoSide{
-    width: 100%;
+    width: 70%;
     filter: brightness(0) invert(1);
 }
 

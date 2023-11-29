@@ -1,10 +1,41 @@
+import Counter from '../../assets/utils';
 import './Contact.css'
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 const Contact = ({ language, translations, closeSideBar}) => {
+  Counter('contact')
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const [emailResponse, setEmailResponse] = useState(null);
+
+const handleSubmit = async () => {
+  const form = document.querySelector('.contactForm');
+  const datos = {
+    name: form.elements.name.value,
+    email: form.elements.user_email.value,
+    message: form.elements.message.value
+  };
+
+  const respuesta = await fetch(`https://porfoliobackend-dev-amke.1.us-1.fl0.io/mail`, {
+    method: 'POST', 
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(datos)
+  });
+
+  if (respuesta.ok) {
+    console.log('Correo enviado exitosamente');
+  } else {
+    console.error('Error al enviar el correo');
+  }
+  const content = await respuesta.json();
+  setEmailResponse(content.message);
+};
+
+
   return (
     <section className='aboutWidth slideIn contactContainer' onClick={closeSideBar}>
       <div className='markTittleContainer'>
@@ -16,11 +47,11 @@ const Contact = ({ language, translations, closeSideBar}) => {
       Aires!5e0!3m2!1sen!2sar!4v1692726134258!5m2!1sen!2sar" allowFullScreen="" className='contactMap' loading="lazy" 
       referrerPolicy="no-referrer-when-downgrade"></iframe>      
       <form className='contactForm'>
-        <h3>{translations[language].notWorks}<a href="mailto:robmr.dev@gmail.com">robmr.dev@gmail.com</a></h3>
         <input type="text" name="name" placeholder={translations[language].contactName} required/>
         <input type="email" name="user_email" placeholder="Email" required/>
         <textarea name="message" placeholder={translations[language].contactMsj} required=""/>
-        <button type='submit'> {translations[language].contactSend} </button>
+        {emailResponse?<strong className='emailResponse'>{emailResponse}</strong>:<></>}
+        <button type='button' onClick={handleSubmit}> {translations[language].contactSend} </button> 
       </form>
     </section>
   )

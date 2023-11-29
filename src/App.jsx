@@ -16,7 +16,7 @@ import BlackAndWhiteButton from './components/BlackAndWhiteButton/BlackAndWhiteB
 import LanguageButton from './components/LanguageButton/LanguageButton'
 
 function App() {
-
+  console.log(translations.en.mainP)
   const [language, setLanguage] = useState('en');
 
   const handleChangeLanguage = (newLanguage) => {

@@ -3,10 +3,11 @@ import { useEffect, useState } from 'react';
 import PortfolioModal from '../PortfolioModal/PortfolioModal';
 
 import portfolioData from "../../data/data.json"
+import Counter from '../../assets/utils';
 
 
 const Portfolio = ({ language, translations, closeSideBar }) => {
-
+  Counter('portfolio')
   const [selectedCategory, setSelectedCategory] = useState('All');
 
   const [isModalOpen, setIsModalOpen] = useState(false);

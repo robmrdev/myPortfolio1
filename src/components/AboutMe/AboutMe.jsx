@@ -1,9 +1,10 @@
 import './AboutMe.css'
 import CertfModal from '../CertfModal/CertfModal'
 import { useState, useEffect } from 'react'
+import Counter from '../../assets/utils'
 
 const AboutMe = ({ language, translations, closeSideBar }) => {
-
+  Counter('about')
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentCertf, setCurrentCertf] = useState(1);
 

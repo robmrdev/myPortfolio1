@@ -1,9 +1,10 @@
 import './News.css'
 import { useEffect, useState } from 'react';
 import NewsModal from '../NewsModal/NewsModal';
+import Counter from '../../assets/utils';
 
 const News = ({ language, translations, closeSideBar }) => {
-
+  Counter('news')
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentNews, setCurrentNews] = useState(1);
 

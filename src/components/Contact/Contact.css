@@ -50,8 +50,14 @@
     padding: 19px 40px;
     width: 190px;
 }
+.emailResponse{
+    color: green;
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+}
 .map{
     margin-bottom: 40px;
+    
 }
 
 

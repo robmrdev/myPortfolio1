@@ -11,6 +11,12 @@
     width: calc(100% - 40px);
     z-index: 9;
 }
+.topBar a{
+    height: 100%;
+}
+.topBar img{
+    height: 100%;
+}
 .topBar i{
     font-size: 30px;
 }

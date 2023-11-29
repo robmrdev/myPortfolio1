@@ -1,8 +1,9 @@
 import './MainPage.css'
 import Typer from '../Typer/Typer'
+import Counter from '../../assets/utils';
 
 const MainPage = ({ language, translations, closeSideBar}) => {
-
+  Counter('main')
   const wordsToType = translations[language].wordsToType;
   return (
     <div className='mainPageContainer slideIn' onClick={closeSideBar}>

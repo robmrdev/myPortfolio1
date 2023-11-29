@@ -1,9 +1,10 @@
 import "./WhatIDo.css"
 import { useEffect, useState } from "react";
 import ServiceModal from "../ServiceModal/ServiceModal";
+import Counter from "../../assets/utils";
 
 const WhatIDo = ({ language, translations,closeSideBar }) => {
-
+  Counter('services')
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentService, setCurrentService] = useState(1);
 
