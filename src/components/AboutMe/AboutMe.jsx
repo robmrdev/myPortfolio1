@@ -91,53 +91,33 @@ const AboutMe = ({ language, translations, closeSideBar }) => {
         <div className='aboutWidth progressWrapper'>
           <h3>{translations[language].aboutSkills}</h3>
           <div className='aboutFlex'>
-            <ul className='left'>
+            <ul className='tech'>
               <li>
-                <span className='skillName'>
-                  <h5>HTML</h5>
-                  <h5>95%</h5>
-                </span>
-                <div className='progress'>
-                  <div style={{ width: "95%" }}></div>
-                </div>
+                  <img src="././img/html.png" alt="" />
               </li>
               <li>
-                <span className='skillName'>
-                  <h5>CSS</h5>
-                  <h5>95%</h5>
-                </span>
-                <div className='progress'>
-                  <div style={{ width: "95%" }}></div>
-                </div>
+                  <img src="././img/css.png" alt="" />
               </li>
               <li>
-                <span className='skillName'>
-                  <h5>Node JS</h5>
-                  <h5>60%</h5>
-                </span>
-                <div className='progress'>
-                  <div style={{ width: "60%" }}></div>
-                </div>
-              </li>
-            </ul>
-            <ul className='right'>
-              <li>
-                <span className='skillName'>
-                  <h5>Javascript ES6+</h5>
-                  <h5>70%</h5>
-                </span>
-                <div className='progress'>
-                  <div style={{ width: "70%" }}></div>
-                </div>
+                  <img src="././img/js.png" alt="" />
               </li>
               <li>
-                <span className='skillName'>
-                  <h5>React</h5>
-                  <h5>80%</h5>
-                </span>
-                <div className='progress'>
-                  <div style={{ width: "80%" }}></div>
-                </div>
+                  <img src="././img/react.png" alt="" />
+              </li>
+              <li>
+                  <img src="././img/nodejs.png" alt="" />
+              </li>
+              <li>
+                  <img src="././img/mongo.png" alt="" />
+              </li>
+              <li>
+                  <img src="././img/git.png" alt="" />
+              </li>
+              <li>
+                  <img src="././img/github.png" alt="" />
+              </li>
+              <li>
+                  <img src="././img/sass.png" alt="" />
               </li>
             </ul>
           </div>

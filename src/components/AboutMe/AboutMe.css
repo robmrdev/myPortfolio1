@@ -1,12 +1,11 @@
-
-.personalInfo{
+.personalInfo {
     padding: 100px 40px 152px;
     max-width: 990px;
     margin: 0 auto;
     position: relative;
 }
 
-.markTittle{
+.markTittle {
     text-transform: uppercase;
     background-color: rgb(54, 56, 56);
     padding: 7px 11px;
@@ -16,22 +15,26 @@
     margin-bottom: 15px;
     width: fit-content;
 }
-.markTittleContainer h1{
+
+.markTittleContainer h1 {
     margin-bottom: 50px;
     color: white;
     font-size: 30px;
     font-weight: 800;
 }
-.markTittleContainer{
+
+.markTittleContainer {
     position: relative;
     width: 100%;
 }
-.profilePic{
+
+.profilePic {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.profilePic img{
+
+.profilePic img {
     filter: grayscale(30%);
     margin-bottom: 35px;
     min-width: 100px;
@@ -40,74 +43,103 @@
     overflow: clip;
     overflow-clip-margin: content-box;
 }
-.aboutWidth{
+
+.aboutWidth {
     max-width: 990px;
     margin: 0 auto;
 }
-.personalInfo .aboutWidth h2{
+
+.personalInfo .aboutWidth h2 {
     color: white;
     margin-bottom: 5px;
 }
-.personalInfo .aboutWidth h4{
+
+.personalInfo .aboutWidth h4 {
     color: rgb(187, 187, 187);
 }
-.personalInfo .aboutWidth p{
+
+.personalInfo .aboutWidth p {
     color: rgb(187, 187, 187);
     padding-bottom: 20px;
     letter-spacing: 0.5px;
 }
-.bottomLine{
+
+.bottomLine {
     border-bottom: 1px solid rgba(187, 187, 187, 0.1);
     padding-bottom: 20px;
     margin-bottom: 27px;
 }
-.aboutFlex{
+
+.aboutFlex {
     display: flex;
 }
-.aboutFlex ul{
+
+.aboutFlex ul {
     list-style-type: none;
 }
-.aboutFlex ul li{
+
+.tech {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.tech li {
     margin-bottom: 5px;
     letter-spacing: 0.5px;
 }
-.aboutInfoLi{
+
+.tech li img {
+    width: 100%;
+    border-image: fill
+}
+
+.aboutInfoLi {
     display: flex
 }
-.aboutFlex ul li span{
+
+.aboutFlex ul li span {
     color: rgb(187, 187, 187);
 }
-.progressWrapper>div{
+
+.progressWrapper>div {
     margin-top: 40px;
     padding-top: 33px;
 }
-.progressWrapper h3{
+
+.progressWrapper h3 {
     font-size: 20px;
     letter-spacing: 0.5px;
 }
-.left{
+
+.left {
     width: 50%;
     padding-right: 50px;
     padding-left: 0
 }
-.right{
+
+.right {
     width: 50%;
     padding-left: 50px;
 }
-.aboutFlex ul li strong{
+
+.aboutFlex ul li strong {
     float: left;
     min-width: 110px;
     margin-right: 10px;
 }
-.aboutButton{
+
+.aboutButton {
     width: 100%;
     height: 52px;
     clear: both;
     float: left;
     box-sizing: border-box;
     display: flex;
-    align-items: center;  
+    align-items: center;
 }
+
 .aboutButton a {
     padding: 11px 40px;
     background-color: white;
@@ -117,14 +149,14 @@
     line-height: 30px;
 }
 
-.alterBG{
+.alterBG {
     background-color: black;
     /* width: 100%; */
     padding-left: 40px;
     padding-right: 40px;
 }
 
-.skillName{
+.skillName {
     display: flex;
     justify-content: space-between;
     margin-bottom: 7px;
@@ -132,80 +164,92 @@
     letter-spacing: 0.5px;
 }
 
-.progress{
+.progress {
     width: 100%;
     height: 3px;
     background-color: rgb(59, 59, 59);
     margin-bottom: 17px;
 }
-.progress div{
+
+.progress div {
     background-color: rgb(99, 99, 99);
     height: 100%;
 }
 
-.knowledge h3{
+.knowledge h3 {
     font-size: 20px;
     letter-spacing: 1px;
     margin-bottom: 50px;
     font-weight: 700;
 }
-.knowledge ul{
+
+.knowledge ul {
     padding-left: 0;
 }
-.knowledge ul li{
+
+.knowledge ul li {
     display: flex;
     margin-bottom: 7px;
 }
-.knowledgeP{
+
+.knowledgeP {
     color: rgb(187, 187, 187);
 }
-.knowledge ul li i{
+
+.knowledge ul li i {
     font-size: 10px;
     margin-top: 7px;
     margin-right: 20px;
 }
-.educationTimeContainer{
+
+.educationTimeContainer {
     padding-right: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.educationInfo{
+
+.educationInfo {
     padding-left: 20px;
 }
-.educationTime{
+
+.educationTime {
     color: rgb(187, 187, 187);
-    background-color: hsla(0,0%,100%,.065);
+    background-color: hsla(0, 0%, 100%, .065);
     padding: 9px 25px;
     border-radius: 50px;
     width: fit-content;
     font-size: 14.5px;
 }
-.knowledge ul li div>p{
+
+.knowledge ul li div>p {
     color: rgb(187, 187, 187);
 }
 
-.educationWrapper h3{
+.educationWrapper h3 {
     font-size: 20px;
     letter-spacing: 1px;
     margin-bottom: 55px;
     font-weight: 700;
 }
-.educationLi{
+
+.educationLi {
     display: flex;
     justify-content: space-between;
     padding-bottom: 45px;
 }
-.educationLi div{
+
+.educationLi div {
     float: right;
     width: 50%;
 }
 
 
-section{
+section {
     padding: 93px 0;
 }
-.knowledge{
+
+.knowledge {
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -215,16 +259,18 @@ section{
 
 
 @media screen and (max-width: 1050px) {
-    .personalInfo{
-        padding: 100px 20px 152px!important;
+    .personalInfo {
+        padding: 100px 20px 152px !important;
         width: auto;
     }
-    .alterBG{
+
+    .alterBG {
         padding-left: 20px;
         padding-right: 20px;
         width: auto;
     }
-    .knowledge{
+
+    .knowledge {
         padding-left: 20px;
         padding-right: 20px;
         width: auto;
@@ -232,24 +278,29 @@ section{
 }
 
 @media screen and (max-width: 768px) {
-    .aboutFlex{
+    .aboutFlex {
         flex-direction: column;
     }
-    .left{
+
+    .left {
         padding: 0;
         width: auto;
     }
-    .right{
+
+    .right {
         padding: 0;
         width: auto;
     }
-    .progressWrapper div ul{
+
+    .progressWrapper div ul {
         width: 100%;
     }
-    .knowledge .left{
+
+    .knowledge .left {
         margin-bottom: 50px;
     }
-    .educationWrapper div div .left{
+
+    .educationWrapper div div .left {
         margin: 0;
     }
 }
@@ -259,21 +310,25 @@ section{
         flex-direction: column;
         align-items: center;
     }
+
     .educationWrapper>div>div {
         padding-left: 0;
         padding-right: 0;
     }
-    .educationLi>div{
+
+    .educationLi>div {
         width: 70%;
         display: flex;
         align-items: center;
         text-align: center;
         padding: 0;
     }
-    .educationInfo{
+
+    .educationInfo {
         flex-direction: column;
     }
-    .educationTime{
+
+    .educationTime {
         width: 100%;
     }
 }
