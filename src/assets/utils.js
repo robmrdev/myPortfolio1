@@ -1,5 +1,5 @@
 async function Counter (counterType) {
-    await fetch(`https://porfoliobackend-dev-amke.1.us-1.fl0.io/counter/${counterType}`, {
+    await fetch(`porfoliobackend-mb59kr72o-roberts-projects-2d1ea26b.vercel.app/counter/${counterType}`, {
     method: 'GET', 
     headers: {
       },
