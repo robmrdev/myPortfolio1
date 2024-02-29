@@ -17,7 +17,7 @@ const handleSubmit = async () => {
     message: form.elements.message.value
   };
 
-  const respuesta = await fetch(`https://porfoliobackend-dev-amke.1.us-1.fl0.io/mail`, {
+  const respuesta = await fetch(`porfoliobackend-mb59kr72o-roberts-projects-2d1ea26b.vercel.app/mail`, {
     method: 'POST', 
     headers: {
       'Accept': 'application/json',
